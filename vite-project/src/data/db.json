@@ -1,0 +1,125 @@
+{
+    "products": [
+      { "id": 1,
+       "header": "Custom virtual examples",
+       "headerAz":"Fərdi virtual nümunələr",
+       "text": "Fully isolated virtual servers tailored to individual needs.",
+       "textAz":"Fərdi ehtiyaclara uyğunlaşdırılmış tam təcrid olunmuş virtual serverlər.",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 2,
+       "header": "Market",
+       "headerAz":"Bazar",
+       "text": "Marketplace for easy deployment of applications and services.",
+       "textAz":"Tətbiq və xidmətlərin rahat yerləşdirilməsi üçün marketplace.",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 3,
+       "header": "Long-term reservation",
+       "headerAz":"Uzun müddətli rezervasiya",
+       "text": "Long-term resource reservation to save on usage costs." ,
+       "textAz":"İstifadə xərclərinə qənaət etmək üçün uzunmüddətli resurs rezervasiyası.",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 4,
+       "header": "Load Balancer L4 / L7",
+       "headerAz":"Yük balanslaşdırıcısı L4 / L7",
+       "text": "(TCP/UDP/ PROXY/ HTTP/ HTTPS)",
+       "textAz":"(TCP/UDP/ PROXY/ HTTP/ HTTPS)",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 5,
+       "header": "Elastic IP addresses",
+       "headerAz":"Elastik IP ünvanları",
+       "text": "IP addresses that can be configured on demand" ,
+       "textAz":"Tələb üzrə konfiqurasiya edilə bilən IP ünvanları",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 6,
+       "header": "REST API / Terraform",
+       "headerAz":"REST API / Terraform",
+       "text": "REST API and IaaS support for automation and management." ,
+       "textAz":"Avtomatlaşdırma və idarəetmə üçün REST API və IaaS dəstəyi.",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 7,
+       "header": "Projects / RBACs",
+       "headerAz":"Layihələr / RBACs",
+       "text": "Project-based administration to manage role-based access to resources." ,
+       "textAz":"Resurslara rol əsaslı girişi idarə etmək üçün layihə əsaslı idarəetmə.",
+       "kategory":"Available",
+       "pul":"255"
+    },
+    { "id": 8,
+       "header": "Long-term reservation",
+       "headerAz":"Uzun müddətli rezervasiya",
+       "text": "Long-term resource reservation to save on usage costs." ,
+       "textAz":"İstifadə xərclərinə qənaət etmək üçün uzunmüddətli resurs rezervasiyası.",
+       "kategory":"Upcoming",
+       "pul":"255"
+    }
+    ],
+    "news":[
+      {
+         "id":1,
+         "mainImg":"https://s3-alpha-sig.figma.com/img/f41c/0818/43aecdf8d4fa2f930afcbdbb09c4d37b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ORhveNb66SBLyuI~G2VXMgdj7RdgSwaiFeVM5D3n--GuBlmMjhA0-q9YlD7zDyDCOwCcTmFaNKoZKOrwpvOrzuBkxuU0SFiCS4A0C1rEkkc-wTIlHWaULNem8SmgToGYPf0~VJo0xhVVjTYBRq8tgoQugFfGfarpcR9GSO5yNpWLJOBh-inJ8nge88PleS3CsKo4wPIz1-kfNpxt8godxbT0YUrM9-tiG7msfM6PZUlv-mDa31Si2ytUaVGHt2uqE~MX5xiOccSoah87Zo2AxaFIRaKm7IOsI0L5hrnIXRoFD1nfkpbweYbDZogIeERKcbL8uUdsX4jN0i-I5DEX7g__",
+         "header":"'AzInTelecom' LLC provides high-quality public cloud services.",
+         "headerAz":"“AzInTelecom” MMC yüksək keyfiyyətli ictimai bulud xidmətləri təqdim edir.",
+         "mainText":"'AzInTelecom' LLC has provided its services to everyone, using the new 'AzInCloud' platform, under the jurisdiction of Digital Development and Transport Management.",
+         "mainTextAz":"“AzInTelecom” MMC Rəqəmsal İnkişaf və Nəqliyyat İdarəetmə yurisdiksiyasında yeni “AzInCloud” platformasından istifadə edərək öz xidmətlərini hər kəsə təqdim edib.",
+         "texts":["AzInTelecom LLC, the country's largest cloud provider, provides cloud services equipped with modern tools through its platform. The platform provides fully managed infrastructure, secure data storage, improved cybersecurity, and 24/7 support services. Operating on a 'pay as you go' model, the platform also offers users special opportunities such as convenient cloud management, a variety of ready-made operating systems, a cloud market, and monitoring services. The platform offers packages that meet the resource requirements of users.","The main goal of the 'AzInCloud' platform is to promote digital transformation in the business environment and increase the role of businesses and individuals in digitalization in Azerbaijan.","202 / 5.000 It should be noted that currently, “AzInTelecom” LLC provides “cloud” services through two modern Data Centers. Security is ensured at the highest level in the data centers operating with “TIER 3” standards."],
+         "textsAz":["Ölkənin ən böyük bulud provayderi olan “AzInTelecom” MMC platforması vasitəsilə müasir alətlərlə təchiz olunmuş bulud xidmətləri təqdim edir. Platforma tam idarə olunan infrastruktur, təhlükəsiz məlumatların saxlanması, təkmilləşdirilmiş kibertəhlükəsizlik və 24/7 dəstək xidmətləri təqdim edir. “Getdikcə ödə” modeli ilə fəaliyyət göstərən platforma, həmçinin istifadəçilərə rahat bulud idarəetməsi, müxtəlif hazır əməliyyat sistemləri, bulud bazarı və monitorinq xidmətləri kimi xüsusi imkanlar təqdim edir. Platforma istifadəçilərin resurs tələblərinə cavab verən paketlər təklif edir.","“AzInCloud” platformasının əsas məqsədi biznes mühitində rəqəmsal transformasiyanı təşviq etmək və Azərbaycanda rəqəmsallaşmada biznes və fiziki şəxslərin rolunu artırmaqdır.","202 / 5.000 Qeyd edək ki, hazırda “AzInTelecom” MMC iki müasir Data Mərkəzi vasitəsilə “bulud” xidmətləri göstərir. “TIER 3” standartları ilə fəaliyyət göstərən məlumat mərkəzlərində təhlükəsizlik ən yüksək səviyyədə təmin edilir."],
+         "tarix":"10.01.2024"
+      },
+      {
+         "id":2,
+         "mainImg":"https://s3-alpha-sig.figma.com/img/f41c/0818/43aecdf8d4fa2f930afcbdbb09c4d37b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ORhveNb66SBLyuI~G2VXMgdj7RdgSwaiFeVM5D3n--GuBlmMjhA0-q9YlD7zDyDCOwCcTmFaNKoZKOrwpvOrzuBkxuU0SFiCS4A0C1rEkkc-wTIlHWaULNem8SmgToGYPf0~VJo0xhVVjTYBRq8tgoQugFfGfarpcR9GSO5yNpWLJOBh-inJ8nge88PleS3CsKo4wPIz1-kfNpxt8godxbT0YUrM9-tiG7msfM6PZUlv-mDa31Si2ytUaVGHt2uqE~MX5xiOccSoah87Zo2AxaFIRaKm7IOsI0L5hrnIXRoFD1nfkpbweYbDZogIeERKcbL8uUdsX4jN0i-I5DEX7g__",
+         "header":"'AzInTelecom' LLC provides high-quality public cloud services.",
+         "headerAz":"“AzInTelecom” MMC yüksək keyfiyyətli ictimai bulud xidmətləri təqdim edir.",
+         "mainText":"'AzInTelecom' LLC has provided its services to everyone, using the new 'AzInCloud' platform, under the jurisdiction of Digital Development and Transport Management.",
+         "mainTextAz":"“AzInTelecom” MMC Rəqəmsal İnkişaf və Nəqliyyat İdarəetmə yurisdiksiyasında yeni “AzInCloud” platformasından istifadə edərək öz xidmətlərini hər kəsə təqdim edib.",
+         "texts":["AzInTelecom LLC, the country's largest cloud provider, provides cloud services equipped with modern tools through its platform. The platform provides fully managed infrastructure, secure data storage, improved cybersecurity, and 24/7 support services. Operating on a 'pay as you go' model, the platform also offers users special opportunities such as convenient cloud management, a variety of ready-made operating systems, a cloud market, and monitoring services. The platform offers packages that meet the resource requirements of users.","The main goal of the 'AzInCloud' platform is to promote digital transformation in the business environment and increase the role of businesses and individuals in digitalization in Azerbaijan.","202 / 5.000 It should be noted that currently, “AzInTelecom” LLC provides “cloud” services through two modern Data Centers. Security is ensured at the highest level in the data centers operating with “TIER 3” standards."],
+         "textsAz":["Ölkənin ən böyük bulud provayderi olan “AzInTelecom” MMC platforması vasitəsilə müasir alətlərlə təchiz olunmuş bulud xidmətləri təqdim edir. Platforma tam idarə olunan infrastruktur, təhlükəsiz məlumatların saxlanması, təkmilləşdirilmiş kibertəhlükəsizlik və 24/7 dəstək xidmətləri təqdim edir. “Getdikcə ödə” modeli ilə fəaliyyət göstərən platforma, həmçinin istifadəçilərə rahat bulud idarəetməsi, müxtəlif hazır əməliyyat sistemləri, bulud bazarı və monitorinq xidmətləri kimi xüsusi imkanlar təqdim edir. Platforma istifadəçilərin resurs tələblərinə cavab verən paketlər təklif edir.","“AzInCloud” platformasının əsas məqsədi biznes mühitində rəqəmsal transformasiyanı təşviq etmək və Azərbaycanda rəqəmsallaşmada biznes və fiziki şəxslərin rolunu artırmaqdır.","202 / 5.000 Qeyd edək ki, hazırda “AzInTelecom” MMC iki müasir Data Mərkəzi vasitəsilə “bulud” xidmətləri göstərir. “TIER 3” standartları ilə fəaliyyət göstərən məlumat mərkəzlərində təhlükəsizlik ən yüksək səviyyədə təmin edilir."],
+         "tarix":"10.01.2024"
+      },
+      {
+         "id":3,
+         "mainImg":"https://s3-alpha-sig.figma.com/img/f41c/0818/43aecdf8d4fa2f930afcbdbb09c4d37b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ORhveNb66SBLyuI~G2VXMgdj7RdgSwaiFeVM5D3n--GuBlmMjhA0-q9YlD7zDyDCOwCcTmFaNKoZKOrwpvOrzuBkxuU0SFiCS4A0C1rEkkc-wTIlHWaULNem8SmgToGYPf0~VJo0xhVVjTYBRq8tgoQugFfGfarpcR9GSO5yNpWLJOBh-inJ8nge88PleS3CsKo4wPIz1-kfNpxt8godxbT0YUrM9-tiG7msfM6PZUlv-mDa31Si2ytUaVGHt2uqE~MX5xiOccSoah87Zo2AxaFIRaKm7IOsI0L5hrnIXRoFD1nfkpbweYbDZogIeERKcbL8uUdsX4jN0i-I5DEX7g__",
+         "header":"'AzInTelecom' LLC provides high-quality public cloud services.",
+         "headerAz":"“AzInTelecom” MMC yüksək keyfiyyətli ictimai bulud xidmətləri təqdim edir.",
+         "mainText":"'AzInTelecom' LLC has provided its services to everyone, using the new 'AzInCloud' platform, under the jurisdiction of Digital Development and Transport Management.",
+         "mainTextAz":"“AzInTelecom” MMC Rəqəmsal İnkişaf və Nəqliyyat İdarəetmə yurisdiksiyasında yeni “AzInCloud” platformasından istifadə edərək öz xidmətlərini hər kəsə təqdim edib.",
+         "texts":["AzInTelecom LLC, the country's largest cloud provider, provides cloud services equipped with modern tools through its platform. The platform provides fully managed infrastructure, secure data storage, improved cybersecurity, and 24/7 support services. Operating on a 'pay as you go' model, the platform also offers users special opportunities such as convenient cloud management, a variety of ready-made operating systems, a cloud market, and monitoring services. The platform offers packages that meet the resource requirements of users.","The main goal of the 'AzInCloud' platform is to promote digital transformation in the business environment and increase the role of businesses and individuals in digitalization in Azerbaijan.","202 / 5.000 It should be noted that currently, “AzInTelecom” LLC provides “cloud” services through two modern Data Centers. Security is ensured at the highest level in the data centers operating with “TIER 3” standards."],
+         "textsAz":["Ölkənin ən böyük bulud provayderi olan “AzInTelecom” MMC platforması vasitəsilə müasir alətlərlə təchiz olunmuş bulud xidmətləri təqdim edir. Platforma tam idarə olunan infrastruktur, təhlükəsiz məlumatların saxlanması, təkmilləşdirilmiş kibertəhlükəsizlik və 24/7 dəstək xidmətləri təqdim edir. “Getdikcə ödə” modeli ilə fəaliyyət göstərən platforma, həmçinin istifadəçilərə rahat bulud idarəetməsi, müxtəlif hazır əməliyyat sistemləri, bulud bazarı və monitorinq xidmətləri kimi xüsusi imkanlar təqdim edir. Platforma istifadəçilərin resurs tələblərinə cavab verən paketlər təklif edir.","“AzInCloud” platformasının əsas məqsədi biznes mühitində rəqəmsal transformasiyanı təşviq etmək və Azərbaycanda rəqəmsallaşmada biznes və fiziki şəxslərin rolunu artırmaqdır.","202 / 5.000 Qeyd edək ki, hazırda “AzInTelecom” MMC iki müasir Data Mərkəzi vasitəsilə “bulud” xidmətləri göstərir. “TIER 3” standartları ilə fəaliyyət göstərən məlumat mərkəzlərində təhlükəsizlik ən yüksək səviyyədə təmin edilir."],
+         "tarix":"10.01.2024"
+      },
+      {
+         "id":4,
+         "mainImg":"https://s3-alpha-sig.figma.com/img/f41c/0818/43aecdf8d4fa2f930afcbdbb09c4d37b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ORhveNb66SBLyuI~G2VXMgdj7RdgSwaiFeVM5D3n--GuBlmMjhA0-q9YlD7zDyDCOwCcTmFaNKoZKOrwpvOrzuBkxuU0SFiCS4A0C1rEkkc-wTIlHWaULNem8SmgToGYPf0~VJo0xhVVjTYBRq8tgoQugFfGfarpcR9GSO5yNpWLJOBh-inJ8nge88PleS3CsKo4wPIz1-kfNpxt8godxbT0YUrM9-tiG7msfM6PZUlv-mDa31Si2ytUaVGHt2uqE~MX5xiOccSoah87Zo2AxaFIRaKm7IOsI0L5hrnIXRoFD1nfkpbweYbDZogIeERKcbL8uUdsX4jN0i-I5DEX7g__",
+         "header":"'AzInTelecom' LLC provides high-quality public cloud services.",
+         "headerAz":"“AzInTelecom” MMC yüksək keyfiyyətli ictimai bulud xidmətləri təqdim edir.",
+         "mainText":"'AzInTelecom' LLC has provided its services to everyone, using the new 'AzInCloud' platform, under the jurisdiction of Digital Development and Transport Management.",
+         "mainTextAz":"“AzInTelecom” MMC Rəqəmsal İnkişaf və Nəqliyyat İdarəetmə yurisdiksiyasında yeni “AzInCloud” platformasından istifadə edərək öz xidmətlərini hər kəsə təqdim edib.",
+         "texts":["AzInTelecom LLC, the country's largest cloud provider, provides cloud services equipped with modern tools through its platform. The platform provides fully managed infrastructure, secure data storage, improved cybersecurity, and 24/7 support services. Operating on a 'pay as you go' model, the platform also offers users special opportunities such as convenient cloud management, a variety of ready-made operating systems, a cloud market, and monitoring services. The platform offers packages that meet the resource requirements of users.","The main goal of the 'AzInCloud' platform is to promote digital transformation in the business environment and increase the role of businesses and individuals in digitalization in Azerbaijan.","202 / 5.000 It should be noted that currently, “AzInTelecom” LLC provides “cloud” services through two modern Data Centers. Security is ensured at the highest level in the data centers operating with “TIER 3” standards."],
+         "textsAz":["Ölkənin ən böyük bulud provayderi olan “AzInTelecom” MMC platforması vasitəsilə müasir alətlərlə təchiz olunmuş bulud xidmətləri təqdim edir. Platforma tam idarə olunan infrastruktur, təhlükəsiz məlumatların saxlanması, təkmilləşdirilmiş kibertəhlükəsizlik və 24/7 dəstək xidmətləri təqdim edir. “Getdikcə ödə” modeli ilə fəaliyyət göstərən platforma, həmçinin istifadəçilərə rahat bulud idarəetməsi, müxtəlif hazır əməliyyat sistemləri, bulud bazarı və monitorinq xidmətləri kimi xüsusi imkanlar təqdim edir. Platforma istifadəçilərin resurs tələblərinə cavab verən paketlər təklif edir.","“AzInCloud” platformasının əsas məqsədi biznes mühitində rəqəmsal transformasiyanı təşviq etmək və Azərbaycanda rəqəmsallaşmada biznes və fiziki şəxslərin rolunu artırmaqdır.","202 / 5.000 Qeyd edək ki, hazırda “AzInTelecom” MMC iki müasir Data Mərkəzi vasitəsilə “bulud” xidmətləri göstərir. “TIER 3” standartları ilə fəaliyyət göstərən məlumat mərkəzlərində təhlükəsizlik ən yüksək səviyyədə təmin edilir."],
+         "tarix":"10.01.2024"
+      },
+      {
+         "id":5,
+         "mainImg":"https://s3-alpha-sig.figma.com/img/f41c/0818/43aecdf8d4fa2f930afcbdbb09c4d37b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ORhveNb66SBLyuI~G2VXMgdj7RdgSwaiFeVM5D3n--GuBlmMjhA0-q9YlD7zDyDCOwCcTmFaNKoZKOrwpvOrzuBkxuU0SFiCS4A0C1rEkkc-wTIlHWaULNem8SmgToGYPf0~VJo0xhVVjTYBRq8tgoQugFfGfarpcR9GSO5yNpWLJOBh-inJ8nge88PleS3CsKo4wPIz1-kfNpxt8godxbT0YUrM9-tiG7msfM6PZUlv-mDa31Si2ytUaVGHt2uqE~MX5xiOccSoah87Zo2AxaFIRaKm7IOsI0L5hrnIXRoFD1nfkpbweYbDZogIeERKcbL8uUdsX4jN0i-I5DEX7g__",
+         "header":"'AzInTelecom' LLC provides high-quality public cloud services.",
+         "headerAz":"“AzInTelecom” MMC yüksək keyfiyyətli ictimai bulud xidmətləri təqdim edir.",
+         "mainText":"'AzInTelecom' LLC has provided its services to everyone, using the new 'AzInCloud' platform, under the jurisdiction of Digital Development and Transport Management.",
+         "mainTextAz":"“AzInTelecom” MMC Rəqəmsal İnkişaf və Nəqliyyat İdarəetmə yurisdiksiyasında yeni “AzInCloud” platformasından istifadə edərək öz xidmətlərini hər kəsə təqdim edib.",
+         "texts":["AzInTelecom LLC, the country's largest cloud provider, provides cloud services equipped with modern tools through its platform. The platform provides fully managed infrastructure, secure data storage, improved cybersecurity, and 24/7 support services. Operating on a 'pay as you go' model, the platform also offers users special opportunities such as convenient cloud management, a variety of ready-made operating systems, a cloud market, and monitoring services. The platform offers packages that meet the resource requirements of users.","The main goal of the 'AzInCloud' platform is to promote digital transformation in the business environment and increase the role of businesses and individuals in digitalization in Azerbaijan.","202 / 5.000 It should be noted that currently, “AzInTelecom” LLC provides “cloud” services through two modern Data Centers. Security is ensured at the highest level in the data centers operating with “TIER 3” standards."],
+         "textsAz":["Ölkənin ən böyük bulud provayderi olan “AzInTelecom” MMC platforması vasitəsilə müasir alətlərlə təchiz olunmuş bulud xidmətləri təqdim edir. Platforma tam idarə olunan infrastruktur, təhlükəsiz məlumatların saxlanması, təkmilləşdirilmiş kibertəhlükəsizlik və 24/7 dəstək xidmətləri təqdim edir. “Getdikcə ödə” modeli ilə fəaliyyət göstərən platforma, həmçinin istifadəçilərə rahat bulud idarəetməsi, müxtəlif hazır əməliyyat sistemləri, bulud bazarı və monitorinq xidmətləri kimi xüsusi imkanlar təqdim edir. Platforma istifadəçilərin resurs tələblərinə cavab verən paketlər təklif edir.","“AzInCloud” platformasının əsas məqsədi biznes mühitində rəqəmsal transformasiyanı təşviq etmək və Azərbaycanda rəqəmsallaşmada biznes və fiziki şəxslərin rolunu artırmaqdır.","202 / 5.000 Qeyd edək ki, hazırda “AzInTelecom” MMC iki müasir Data Mərkəzi vasitəsilə “bulud” xidmətləri göstərir. “TIER 3” standartları ilə fəaliyyət göstərən məlumat mərkəzlərində təhlükəsizlik ən yüksək səviyyədə təmin edilir."],
+         "tarix":"10.01.2024"
+      }
+    ]
+  }

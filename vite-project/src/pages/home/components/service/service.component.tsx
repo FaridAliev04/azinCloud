@@ -1,12 +1,10 @@
-import React from 'react';
 import { useServiceStyle } from './service.style';
 import   MissinIcons  from '../../../../assets/images/icons/MissinIcons';
 import GoalsIcons  from '../../../../assets/images/icons/GoalsIcons';
 import VisionIcon  from '../../../../assets/images/icons/VisionIcon';
-import ValuesIcon  from '../../../../assets/images/icons/ValuesIcons';
 import ValuesIcons from '../../../../assets/images/icons/ValuesIcons';
 import classNames from "classnames";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import useLocalization from '../../../../assets/lang';
 
 const ServiceComponent = () => {
@@ -34,7 +32,7 @@ const ServiceComponent = () => {
                         </div>
                         <div>
                             <h3 className={classes.cardHeader}>
-                            {translete("Mission")}
+                            {translete("mission")}
                             </h3>
                         </div>
                     </div>
@@ -60,7 +58,7 @@ const ServiceComponent = () => {
                         </div>
                         <div>
                             <h3 className={classes.cardHeader}>
-                            {translete("Goals")}
+                            {translete("goals")}
                             </h3>
                         </div>
                     </div>
@@ -84,7 +82,7 @@ const ServiceComponent = () => {
                         </div>
                         <div>
                             <h3 className={classes.cardHeader}>
-                            {translete("Vision")}
+                            {translete("vision")}
                             
                             </h3>
                         </div>
@@ -109,7 +107,7 @@ const ServiceComponent = () => {
                         </div>
                         <div>
                             <h3 className={classes.cardHeader}>
-                            {translete("Values")}
+                            {translete("values")}
                             </h3>
                         </div>
                     </div>

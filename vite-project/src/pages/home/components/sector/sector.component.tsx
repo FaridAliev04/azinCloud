@@ -1,4 +1,3 @@
-import React from 'react';
 import Azercell from '../../../../assets/images/icons/azercell';
 import AzTv from '../../../../assets/images/icons/azTv';
 import ElektronHokumet from '../../../../assets/images/icons/elektronHokumet';

@@ -24,7 +24,7 @@ export const rootSlice = createSlice({
     name: 'root',
     initialState,
     reducers: {
-        setLocale: (state: IState, action: PayloadAction<ILang>) => {
+        setLocale: (state: any, action: PayloadAction<ILang>) => {
             const lang = {
                 az,
                 en,
@@ -32,10 +32,19 @@ export const rootSlice = createSlice({
             state.locale = lang[action.payload];
             localStorage.setItem(`${environment.applicationName}-locale`, action.payload);
         },
+        setUser: (state: any, action: PayloadAction<any>) => {
+            console.log(action.payload.user,)
+        },
+        setUpdate: (state: any, action: PayloadAction<any>) => {
+            const updatedData = action.payload;
+            if (updatedData.email) {
+                state.user.email = updatedData.email;
+            }
+        }
 
     },
 });
 
-export const { setLocale} = rootSlice.actions;
+export const { setLocale,setUser,setUpdate} = rootSlice.actions;
 
 export default rootSlice.reducer;

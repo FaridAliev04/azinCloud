@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getNewsCardService } from './newsCard.service';
+import { getNewsCardService } from './news-card.service';
 
 export const useNewsCard = () => {
     return useQuery({

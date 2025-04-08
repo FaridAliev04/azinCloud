@@ -1,4 +1,3 @@
-import React from 'react';
 import { useFooterStyle } from './footer.style';
 import insta from '../../../../../assets/images/statics/inst.png'
 import tg from '../../../../../assets/images/statics/tg.png'
@@ -22,20 +21,20 @@ const FooterCoponent = () => {
                     <div className={classes.inpSoialDiv}>
                         <div className={classes.inpDiv}>
                             <input placeholder={translate("inp_placeholder")} className={classes.inp} type="text" name="" id="" />
-                            <button className={classes.btn}>{translate("Subscribe")}</button>
+                            <button className={classes.btn}>{translate("subscribe")}</button>
                         </div>
                     </div>
                 </div>
 
                 <div className={classes.sosialIconsDiv}>
                             <div>
-                                <img src={insta} alt="" />
+                                <img src={insta} alt="instagram" />
                             </div>
                             <div>
-                            <img src={tg} alt="" />
+                            <img src={tg} alt="telegram" />
                             </div>
                             <div>
-                               <img src={yt} alt="" /> 
+                               <img src={yt} alt="youtube" /> 
                             </div>
                             
                 </div>
@@ -62,7 +61,7 @@ const FooterCoponent = () => {
                     <div className={classes.infoDiv}>
                         <Location/>
                         <p className={classes.info}>
-                           {translate("unvan")}
+                           {translate("footer_address")}
                         </p>
                     </div>
                 </div>

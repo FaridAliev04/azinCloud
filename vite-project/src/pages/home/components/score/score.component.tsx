@@ -27,7 +27,7 @@ const ScoreComponent = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.7 }}
                 >
-                    {translate("Our_team")}
+                    {translate("our_team")}
                 </motion.p>
                 <motion.h1 
                     className={classes.score} 
@@ -54,7 +54,7 @@ const ScoreComponent = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.7 }}
                 >
-                    {translate("Our_project")}
+                    {translate("our_project")}
                 </motion.p>
                 <motion.h1 
                     className={classes.score} 
@@ -81,7 +81,7 @@ const ScoreComponent = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.7 }}
                 >
-                    {translate("Private_customers")}
+                    {translate("private_customers")}
                 </motion.p>
                 <motion.h1 
                     className={classes.score} 
@@ -108,7 +108,7 @@ const ScoreComponent = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: 0.7 }}
                 >
-                    {translate("Government_customers")}
+                    {translate("government_customers")}
                 </motion.p>
                 <motion.h1 
                     className={classes.score} 

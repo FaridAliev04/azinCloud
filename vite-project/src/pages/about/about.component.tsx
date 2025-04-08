@@ -1,7 +1,6 @@
-import React from 'react';
 import { useAboutStyle } from './about.style';
-import MainAboutComponent from './components/mainAbout/mainAbout.component';
-import AboutServiceComponent from './components/aboutService/aboutService.component';
+import MainAboutComponent from './components/mainAbout/main-about.component';
+import AboutServiceComponent from './components/aboutService/about-service.component';
 
 const AboutComponent = () => {
     const classes=useAboutStyle()

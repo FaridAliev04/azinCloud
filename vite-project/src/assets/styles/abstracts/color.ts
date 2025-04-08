@@ -7,7 +7,8 @@ const colors ={
     aboutText:"#12475F",
     sectorHeader:"#12475F",
     newsCardBg:"#F5F9FC",
-    footerBg:"#F0F1F4"
+    footerBg:"#F0F1F4",
+    boxShadov:"rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;"
 }
 
 export default colors

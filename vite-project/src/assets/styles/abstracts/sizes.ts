@@ -20,10 +20,14 @@ const sizes = {
     lineHeight:"122%",
     footerFormPaddingTop:"15px",
     footerFormPaddingRight:"20px",
-    marginTop:"9rem",
+    marginTop:"9.5rem",
     borderRadiusveryLarge:"49px",
     inpPadding:"0.9rem",
-    normalInptWidht:"560px"
+    normalInptWidht:"560px",
+    zero:0,
+    smallMarginTop:"2rem",
+    width: "80%",
+    largeWidth:"88%"
 };
 
 export default sizes;

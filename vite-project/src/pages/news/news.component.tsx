@@ -1,5 +1,5 @@
 import React from 'react';
-import NewsCardComponent from './newsCard/newsCards.component';
+import NewsCardComponent from './newsCard/news-cards.component';
 
 const NewsComponent = () => {
     return (

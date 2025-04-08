@@ -15,15 +15,15 @@ const SwiperComponent = () => {
     const data = [
       {
         id: 1,
-        text: translate("data1"),
+        text: translate("swiper_data1"),
       },
       {
         id: 2,
-        text: translate("data2"),
+        text: translate("swiper_data2"),
       },
       {
         id: 3,
-        text: translate("data3"),
+        text: translate("swiper_data3"),
       },
     ];
   

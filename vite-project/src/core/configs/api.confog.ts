@@ -1,4 +1,5 @@
 export const API = {
     products: 'products',
-    news:'news'
+    news:'news',
+    user:"user"
 };

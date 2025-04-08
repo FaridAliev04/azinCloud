@@ -11,15 +11,25 @@ const styles = {
         justifyContent: "space-around",
         height:"35rem",
         marginTop:"7rem",
-        position:"relative;"
+        position:"relative",
+        zIndex:"100",
     },
     svg:{
         position:"absolute",
-        bottom:"-14rem"
+        bottom:"-7rem",
+        width:"100%",
+        // zIndex:"-1",
     },
     svgMain:{
         position:"absolute",
-        bottom:"-14rem"
+        bottom:"-10rem",
+         width:"100%",
+         zIndex:"50"
+    },
+    secondSvg:{
+        position:"absolute",
+        bottom:"-10rem",
+        zIndex:"49"
     }
 };
 

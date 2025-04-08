@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation,Grid } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import alibaba from "../../../../assets/images/statics/alibaba.png";
 import google from "../../../../assets/images/statics/google.png";
 import core from "../../../../assets/images/statics/core.png";

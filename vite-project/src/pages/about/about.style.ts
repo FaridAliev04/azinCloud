@@ -3,7 +3,7 @@ import sizes from '../../assets/styles/abstracts/sizes';
 
 const styles = {
     mainDiv:{
-        marginTop:sizes.marginTop
+        marginTop:"9rem"
     }
 };
 

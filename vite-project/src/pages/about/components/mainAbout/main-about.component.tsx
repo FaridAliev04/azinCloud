@@ -1,5 +1,4 @@
-import React from 'react';
-import { useAboutMainStyle } from './mainAbout.style';
+import { useAboutMainStyle } from './main-about.style';
 import AboutUsSvgComponent from '../../../../core/shared/aboutUsSvg/aboutUsSvg.component';
 import useLocalization from '../../../../assets/lang';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { useMapStyle } from './map.style';
@@ -21,7 +20,7 @@ const MapComponent = () => {
         <div className={classes.mainDiv}>
             <div className={classes.contactDiv}>
                 <div className={classes.infoMainDiv}>
-                <h1 className={classes.mapHeader}>{translate("Our_contacts")}</h1>
+                <h1 className={classes.mapHeader}>{translate("our_contacts")}</h1>
                     <div className={classes.infoDiv}>
                         <User />
                         <p>157</p>
@@ -36,7 +35,7 @@ const MapComponent = () => {
                     </div>
                     <div className={classes.infoDiv}>
                         <Location />
-                        <p className={classes.info}>{translate("unvan")}</p>
+                        <p className={classes.info}>{translate("footer_address")}</p>
                     </div>
                     <div className={classes.border}></div>
                     <div className={classes.sosialIconsDiv}>
@@ -61,7 +60,7 @@ const MapComponent = () => {
                         />
                         <Marker position={AZERBAIJAN_COORDS}>
                             <Popup>
-                                {translate("unvan")} <br /> Azərbaycan
+                                {translate("footer_address")} 
                             </Popup>
                         </Marker>
                     </MapContainer>

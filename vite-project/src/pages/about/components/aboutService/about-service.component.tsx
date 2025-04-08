@@ -1,5 +1,5 @@
 import Company from "../../../../assets/images/icons/company";
-import { useAboutServiceStyle } from "./aboutService.style";
+import { useAboutServiceStyle } from "./about-service.style";
 import componyImg from '../../../../assets/images/statics/Rectangle 89.png'
 import componyImgSecomd from '../../../../assets/images/statics/Rectangle 88.png'
 import CompanyTarget from "../../../../assets/images/icons/companyTarget";
@@ -26,30 +26,30 @@ const AboutServiceComponent = () => {
                 <div className={classes.iconsMainDiv}>
                     <div className={classes.iconsDiv}>
                        <Company/> 
-                       <h1 className={classes.iconsHeader}>{translate("Company_profile")}</h1>
+                       <h1 className={classes.iconsHeader}>{translate("about_company_profile")}</h1>
                     </div>
                     <p className={classes.iconsText}>
-                    {translate("profil_text")}
+                    {translate("about_profil_text")}
                     </p>
                     
                 </div>
                 <div className={classes.iconsMainDiv}>
                     <div className={classes.iconsDiv}>
                        <CompanyTarget/> 
-                       <h1 className={classes.iconsHeader}>{translate("Our_Target")}</h1>
+                       <h1 className={classes.iconsHeader}>{translate("about_us_our_target")}</h1>
                     </div>
                     <p className={classes.iconsText}>
-                    {translate("target_text")}
+                    {translate("about_target_text")}
                     </p>
                     
                 </div>
                 <div className={classes.iconsMainDiv}>
                     <div className={classes.iconsDiv}>
                        <CompanySupport/> 
-                       <h1 className={classes.iconsHeader}>{translate("Special_Support")}</h1>
+                       <h1 className={classes.iconsHeader}>{translate("about_us_special_support")}</h1>
                     </div>
                     <p className={classes.iconsText}>
-                    {translate("support_text")}
+                    {translate("about_support_text")}
                     </p>
                     
                 </div>
@@ -63,20 +63,20 @@ const AboutServiceComponent = () => {
                 <div className={classes.iconsMainDiv}>
                     <div className={classes.iconsDiv}>
                        <CompamyMarket/> 
-                       <h1 className={classes.iconsHeader}>{translate("Market_Advantages")}</h1>
+                       <h1 className={classes.iconsHeader}>{translate("about_us_market_advantages")}</h1>
                     </div>
                     <p className={classes.iconsText}>
-                    {translate("market_text")}
+                    {translate("about_market_text")}
                     </p>
                     
                 </div>
                 <div className={classes.iconsMainDiv}>
                     <div className={classes.iconsDiv}>
                        <CompanyTechnology/> 
-                       <h1 className={classes.iconsHeader}>{translate("Technology_Advantages")}</h1>
+                       <h1 className={classes.iconsHeader}>{translate("about_us_technology_advantages")}</h1>
                     </div>
                     <p className={classes.iconsText}>
-                    {translate("Technology_text")}
+                    {translate("about_technology_text")}
                     </p>
                     
                 </div>

@@ -53,7 +53,9 @@ const styles = {
     },
     footer:{
         display:"flex",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        maxWidth:"88%",
+        margin:sizes.marginAuto
     },
     border:{
         border:`1px solid ${colors.aboutText}` ,

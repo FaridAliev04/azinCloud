@@ -57,7 +57,7 @@ const NewsComponent = () => {
                         spaceBetween: 50,
                     },
                 }}
-                classNmae={classes.swiper}
+                className={classes.swiper}
             >
                 {
                     data?.map((e: any) => (

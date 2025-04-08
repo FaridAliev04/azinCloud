@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { getMainService } from './mainService.service';
+import { getMainService } from './main-service.service';
 
 export const useMainService = (category: string) => {
     return useQuery({

@@ -10,10 +10,14 @@ import useLocalization from '../../../../assets/lang';
 import{ ILang }from '../../../../assets/lang/lang'
 import {environment} from '../../../../core/configs/app.config'
 import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { Routes } from '../../../../router/routes';
+import classNames from 'classnames';
 const ProductsComponent = () => {
     const classes = useProductsStyle();
     const [activeProduct, setActiveProduct] = useState('Available');  
     const { data } = useProducts(activeProduct);
+    const navigate=useNavigate()
 
     const toggleSort = (sortType: string) => {
         setActiveProduct(sortType); 
@@ -25,22 +29,32 @@ const ProductsComponent = () => {
   const currentLang = useMemo(() => {
     return (localStorage.getItem(`${environment.applicationName}-locale`) as ILang) || "az";
   }, [locale]);
+
+      const availableClass = classNames({
+          [classes.activeSort]: activeProduct === 'Available',
+          [classes.productsSort]: activeProduct !== 'Available'
+      });
+  
+      const upcomingClass = classNames({
+          [classes.activeSort]: activeProduct === 'Upcoming',
+          [classes.productsSort]: activeProduct !== 'Upcoming'
+      });
     return (
         <div className={classes.mainDiv}>
             <div className={classes.productsSortDiv}>
                 <div 
                     onClick={() => toggleSort('Available')} 
-                    className={activeProduct === 'Available' ? classes.activeSort : classes.productsSort}
+                    className={availableClass}
                 >
                     <IconamoonLightning1Fill1 activeProduct={activeProduct}/>
-                    <span>{translate("Available_products")}</span>
+                    <span>{translate("available_products")}</span>
                 </div>
                 <div 
                     onClick={() => toggleSort('Upcoming')} 
-                    className={activeProduct === 'Upcoming' ? classes.activeSort : classes.productsSort}
+                    className={upcomingClass}
                 >
                     <MingcuteRocketFill activeProduct={activeProduct}/>
-                    <span>{translate("Upcoming")}</span>
+                    <span>{translate("upcoming")}</span>
                 </div>
             </div>
 
@@ -66,8 +80,8 @@ const ProductsComponent = () => {
                 }
             </Swiper>
 
-            <div className={classes.moreDiv}>
-                <p>{translate("more")}</p> 
+            <div onClick={()=>navigate(Routes.service)} className={classes.moreDiv}>
+                <p className={classes.more}>{translate("more")}</p> 
                 <div className={classes.moreIcons}>
                     <Vuesax/>
                 </div>

@@ -21,7 +21,9 @@ const styles = {
    },
    sectorDiv:{
     display:"flex",
-    justifyContent: "space-around"
+    justifyContent: "space-between",
+    width:"88%",
+    margin:sizes.marginAuto
    },
    border:{
     border:"1px",

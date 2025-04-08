@@ -1,6 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import colors from '../../../../../assets/styles/abstracts/color';
 import sizes from '../../../../../assets/styles/abstracts/sizes';
+import { rem } from '../../../../../assets/styles/abstracts/functions';
 
 
 const styles = {
@@ -11,7 +12,7 @@ const styles = {
         width:"100%",
         padding:"50px",
         background: `linear-gradient(90deg,${colors.linearGradientBg})`,
-         zIndex:'99'
+         zIndex:'150'
     },
     nav:{
         // padding:"50px",
@@ -47,19 +48,82 @@ const styles = {
         padding:'1rem'
     },
     navBtn:{
-        width:"191px",
+        minWidth:"191px",
+        marginTop:"-0.3rem",
         height:"54px",
         border:"none",
         background: "white",
         color:colors.loginBtn,
         fontSize:"18px",
-        borderRadius:"41px"
+        borderRadius:"41px",
     },
     serarchIconDiv:{
         marginTop:"0.5rem"
     },
     selectDiv:{
         marginTop:"0.2rem"
+    },
+    btnDiv:{
+        position:"relative"
+    },
+    profilDiv:{
+        background:colors.white,
+        position:"absolute",
+        padding:rem(sizes.base),
+        width:'13.75rem',
+        top: "3.8rem",
+        borderRadius:"17px",
+        display:"flex",
+        flexDirection:"column",
+        gap:rem(sizes.base),
+        color:colors.aboutText,
+        fontWeight:"500",
+        fontSize:"18px",
+    },
+    exitDiv:{
+        display:"flex",
+        justifyContent:"space-between"
+    },
+    logout:{
+        cursor: "pointer"
+    },
+    noneDivActive:{
+        position:"fixed",
+        width:"100%",
+        height:"100vh",
+        zIndex:"99"
+    },
+    exitText:{
+        marginTop:"0.2rem",
+        cursor: "pointer",
+    },
+    profilBtn:{
+        maxWidth: "191px",
+        height: "54px",
+        background: "rgba(255, 255, 255, 0.2)",
+        color: colors.white,
+        fontSize: "18px",
+        borderRadius: "41px",
+        border: "2px solid white",
+        marginTop:"-0.3rem"
+    },
+    nameDiv:{
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        gap:rem(sizes.base)
+    },
+    downIcons:{
+        marginTop:"0.2rem"
+    },
+    nameSpan:{
+        display: "-webkit-box",
+        WebkitLineClamp: 1,   
+        WebkitBoxOrient: "vertical",
+        overflow: "hidden",
+    },
+    personInfo:{
+        cursor: "pointer",
     }
 };
 

@@ -7,7 +7,7 @@ const styles = {
         position: "relative",
         bottom:"10rem",
         backgroundColor: "white",
-        width:rem(sizes.productMainWidth),
+        width:sizes.width,
         height:rem(sizes.productMainHeight),
         margin:sizes.marginAuto,
         padding:"2rem",
@@ -16,6 +16,7 @@ const styles = {
         gap:"2rem",
         borderRadius:sizes.borderRadiusLarge,
         boxShadow: sizes.boxShadow,
+        zIndex:"149"
     },
     productsSort:{
         display:"flex",
@@ -117,7 +118,11 @@ const styles = {
     moreIcons:{
         marginTop:"-0.2rem",
         cursor: "pointer",
-    }
+    },
+    more:{
+        cursor: "pointer"
+    },
+
 };
 
 export const useProductsStyle = createUseStyles(styles);

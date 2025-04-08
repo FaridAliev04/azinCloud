@@ -1,7 +1,7 @@
-import  { useMemo } from 'react';
+import  { useCallback, useMemo } from 'react';
 import { useNewsCard } from './action/news.query';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useNewsParamsStyles } from './newsParams.style';
+import { useNewsParamsStyles } from './news-params.style';
 import Exit from '../../assets/images/icons/exit';
 import { Routes } from '../../router/routes';
 import useLocalization from '../../assets/lang';
@@ -15,9 +15,10 @@ const NewsParamsComoponent = () => {
     const classes=useNewsParamsStyles()
     const navigate=useNavigate()
 
-    const backFunc=()=>{
-        navigate(Routes.news)
-    }
+    const backFunc = useCallback(() => {
+        navigate(Routes.news);
+      }, [navigate]);
+      
     const locale = useSelector((state: any) => state.locale);
 
     const translate=useLocalization()
@@ -37,9 +38,9 @@ const NewsParamsComoponent = () => {
                 </p>
                 </div>
             </div>
-            {data?.map((e:any)=>{
+            {data?.map((e:any , key:number)=>{
                 if(e.id==id){
-                    return <div className={classes.news}>
+                    return <div key={key} className={classes.news}>
                         <h1 className={classes.header}>
                             {currentLang==="en"?e.header:e.headerAz}
                         </h1>
@@ -49,12 +50,12 @@ const NewsParamsComoponent = () => {
                         <h3 className={classes.mainTexts}>
                             {currentLang==="en"?e.mainText:e.mainTextAz}
                         </h3>
-                        {currentLang==="en"?e.texts.map((event:any)=>{
-                            return <p className={classes.texts}>
+                        {currentLang==="en"?e.texts.map((event:any,key:number)=>{
+                            return <p key={key} className={classes.texts}>
                                 {event}
                             </p>
-                        }):e.textsAz.map((event:any)=>{
-                            return <p className={classes.texts}>
+                        }):e.textsAz.map((event:any,keys:number)=>{
+                            return <p key={keys} className={classes.texts}>
                             {event}
                         </p>
                         })}

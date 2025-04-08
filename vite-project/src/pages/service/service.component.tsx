@@ -1,5 +1,4 @@
-import React from 'react';
-import MainServiceComponent from './component/mainService/mainService.component';
+import MainServiceComponent from './component/mainService/main-service.component';
 
 const ServiceComponent = () => {
     return (

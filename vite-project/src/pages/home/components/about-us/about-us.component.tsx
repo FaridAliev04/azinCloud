@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import AboutUsSvgComponent from "../../../../core/shared/aboutUsSvg/aboutUsSvg.component";
 import Cpu from "../../../../assets/images/icons/cpu";
-import { useAboutUsStyle } from "./aboutUs.style";
+import { useAboutUsStyle } from "./abou-us.style";
 import { useNavigate } from "react-router-dom";
 import useLocalization from "../../../../assets/lang";
 
@@ -45,22 +45,22 @@ const AboutUsComponent = () => {
                     <div className={classes.logosDiv}>
                         <div className={classes.logoInculdeDiv}>
                             <Cpu />
-                            <p className={classes.logoInculdeHeader}>{traslate("Special_Support")}</p>
+                            <p className={classes.logoInculdeHeader}>{traslate("about_us_special_support")}</p>
                         </div>
                         <div className={classes.border}></div>
                         <div className={classes.logoInculdeDiv}>
                             <Cpu />
-                            <p className={classes.logoInculdeHeader}>{traslate("Our_Target")}</p>
+                            <p className={classes.logoInculdeHeader}>{traslate("about_us_our_target")}</p>
                         </div>
                         <div className={classes.border}></div>
                         <div className={classes.logoInculdeDiv}>
                             <Cpu />
-                            <p className={classes.logoInculdeHeader}>{traslate("Market_Advantages")}</p>
+                            <p className={classes.logoInculdeHeader}>{traslate("about_us_market_advantages")}</p>
                         </div>
                         <div className={classes.border}></div>
                         <div className={classes.logoInculdeDiv}>
                             <Cpu />
-                            <p className={classes.logoInculdeHeader}>{traslate("Technology_Advantages")}</p>
+                            <p className={classes.logoInculdeHeader}>{traslate("about_us_technology_advantages")}</p>
                         </div>
                     </div>
                 </motion.div>

@@ -4,7 +4,9 @@ export enum Routes {
     service='/service',
     news='/news',
     newsParams='/news/:id',
-    contact="/contact"
+    contact="/contact",
+    login='/login',
+    personInfo='/personInfo'
 }
 
 

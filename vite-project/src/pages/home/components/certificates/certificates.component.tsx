@@ -20,7 +20,7 @@ const CertificatesComponent = () => {
             <div className={classes.imgDiv}>
                 {
                     img.map((e:any,key:number)=>{
-                        return <div className={classes.imgMainDiv}>
+                        return <div key={key} className={classes.imgMainDiv}>
                             <img className={classes.img} key={key} src={e} />
                         </div>
                     })

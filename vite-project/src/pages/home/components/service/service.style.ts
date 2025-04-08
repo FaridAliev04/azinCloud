@@ -4,8 +4,11 @@ import sizes from '../../../../assets/styles/abstracts/sizes';
 
 const styles = {
     serviceMainDiv: {
-        padding: sizes.mediumPadding,
-        marginTop: "2rem"
+        // padding: sizes.mediumPadding,
+        maxWidth: "88%",
+        margin:" 0 auto",
+        marginTop: "2rem",
+        padding:"92px 0"
     },
     serviceHeader: {
         fontSize: sizes.largeFontSize,
@@ -32,10 +35,9 @@ const styles = {
     },
     card: {
         backgroundColor: "#fff",
-        padding: "1.5rem",
+        padding: "1rem",
         borderRadius: "28px",
         boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
-        // textAlign: "center",
         transition: "transform 0.3s ease-in-out",
         width:"280.0002136230469px",
         height:"100%",
@@ -47,7 +49,6 @@ const styles = {
     },
     cardText:{
         lineHeight: "1.2rem",
-        // marginTop:"1rem"
     },
     iconContainer: {
         display: "flex",

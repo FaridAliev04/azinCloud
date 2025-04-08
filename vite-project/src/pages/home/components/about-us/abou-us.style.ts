@@ -40,10 +40,11 @@ const styles = {
         gap:"0.5rem" 
     },
     logoInculdeHeader:{
-        width:"66px",
+        width:"90px",
         fontSize:"18px",
         fontWeight:"700",
-        lineHeight:"100%",
+        lineHeight:"164%",
+        
     },
     border:{
         width:"2px",

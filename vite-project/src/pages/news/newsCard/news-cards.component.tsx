@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
-import { useNewsCard } from './action/newsCard.query';
-import { useNewsCardStyle } from './newsCard.style';
+import { useCallback, useMemo, useState } from 'react';
+import { useNewsCard } from './action/news-card.query';
+import { useNewsCardStyle } from './news-card.style';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import useLocalization from '../../../assets/lang';
@@ -12,10 +12,10 @@ const NewsCardsComponent = () => {
         const navigate=useNavigate()
         const [id,setId]=useState<number | undefined>()
          
-        const idFunc=(e:number)=>{
-            setId(e)
-            navigate(`/news/${e}`)
-        }
+        const idFunc = useCallback((e: number) => {
+            setId(e);
+            navigate(`/news/${e}`);
+          }, [navigate]);
         const locale = useSelector((state: any) => state.locale);
 
         const translate=useLocalization()
@@ -27,14 +27,14 @@ const NewsCardsComponent = () => {
         <div  className={classes.mainDiv}>
             <div>
                 <h1 className={classes.newsHeader}>
-                    {translate("News_and_blog")}
+                    {translate("nav_news_and_blog")}
                 </h1>
             </div>
             <div className={classes.cardContainer}>
 
                     {
-                       data?.map((e:any)=>{
-                           return <div onClick={()=>idFunc(e.id)} className={classes.card}>
+                       data?.map((e:any,key:number)=>{
+                           return <div key={key} onClick={()=>idFunc(e.id)} className={classes.card}>
                            <div className={classes.imgDiv}>
                                <img className={classes.img} src={e.mainImg} alt={e.header} />
                            </div>

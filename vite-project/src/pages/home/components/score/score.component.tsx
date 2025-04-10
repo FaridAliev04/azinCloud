@@ -11,7 +11,8 @@ const ScoreComponent = () => {
     const translate = useLocalization();
 
     return (
-        <div className={classes.mainDiv}>
+        <div className={classes.container}>
+            <div className={classes.mainDiv}>
             <div className={classes.scoreCard}>
                 <motion.div
                     key={Math.random()}
@@ -118,6 +119,7 @@ const ScoreComponent = () => {
                 >
                     70
                 </motion.h1>
+            </div>
             </div>
         </div>
     );

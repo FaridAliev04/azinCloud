@@ -4,7 +4,7 @@ import sizes from '../../assets/styles/abstracts/sizes';
 
 const styles = {
     mainDiv:{
-        width:"80%",
+        width:sizes.width,
         margin:sizes.marginAuto
     }
 }

@@ -10,6 +10,7 @@ const SignInComponent = () => {
     const classes = useSignInStyles();
     const translate = useLocalization();
     const { data } = useSignIn(); 
+    console.log(data);
     const navigate = useNavigate();
 
     const onFinish = useCallback((values: { email: string; password: string }) => {

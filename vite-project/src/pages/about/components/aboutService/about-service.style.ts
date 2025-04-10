@@ -6,8 +6,8 @@ import sizes from '../../../../assets/styles/abstracts/sizes';
 
 const styles = {
     mainDiv:{
-        padding:"5rem",
-        width:"80%",
+        padding:"5rem 0",
+        // width:"80%",
         display:"flex",
         flexDirection:"column",
         margin:sizes.marginAuto
@@ -61,6 +61,10 @@ const styles = {
         display:"flex",
         flexDirection:"column",
         justifyContent: "space-around",
+    },
+    container:{
+        width:sizes.width,
+        margin:sizes.marginAuto
     }
 };
 

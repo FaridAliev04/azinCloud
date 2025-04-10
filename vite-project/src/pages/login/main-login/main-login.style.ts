@@ -7,13 +7,11 @@ import { rem } from '../../../assets/styles/abstracts/functions';
 
 const styles = {
     mainDiv:{
-        marginTop:sizes.marginTop,
-        paddingTop:"2rem",
-        paddingBottom:"2rem",
+        padding:sizes.componentPaddingTop
     },
     loginDiv:{
         background: `linear-gradient(90deg,${colors.linearGradientBg})`,
-        width:"1212px",
+        width:sizes.width,
         minHeight:"400px",
         margin:sizes.marginAuto,
         borderRadius:sizes.borderRadiusMedium,

@@ -6,20 +6,20 @@ import { rem } from '../../../../../assets/styles/abstracts/functions';
 
 const styles = {
     mainDiv:{
-        position:"fixed",
         display:"flex",
-        justifyContent: "space-around",
-        width:"100%",
-        padding:"50px",
-        background: `linear-gradient(90deg,${colors.linearGradientBg})`,
-         zIndex:'150'
+        justifyContent: "space-between",
+        width:sizes.width,
+        margin:sizes.marginAuto,
+        zIndex:"150"
     },
     nav:{
-        // padding:"50px",
+        padding:"50px 0",
+        position:"fixed",
         background: `linear-gradient(90deg,${colors.linearGradientBg})`,
         display:"flex",
         justifyContent: "space-around",
-        zIndex:'99'
+        zIndex:'150',
+        width:"100%",
     },
     listNav:{
         display:"flex",

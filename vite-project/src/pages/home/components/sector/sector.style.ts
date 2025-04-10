@@ -20,10 +20,10 @@ const styles = {
     color:colors.sectorHeader
    },
    sectorDiv:{
+    width:sizes.width,
+    margin:sizes.marginAuto,
     display:"flex",
     justifyContent: "space-between",
-    width:"88%",
-    margin:sizes.marginAuto
    },
    border:{
     border:"1px",

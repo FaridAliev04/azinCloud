@@ -12,6 +12,7 @@ const AboutServiceComponent = () => {
     const classes=useAboutServiceStyle()
     const translate=useLocalization()
     return (
+    <div className={classes.container}>
         <div className={classes.mainDiv}> 
             <div className={classes.textsDiv}>
                 <h1 className={classes.header}>
@@ -84,6 +85,7 @@ const AboutServiceComponent = () => {
                 </div>
             </div>
         </div>
+    </div>
     );
 }
 

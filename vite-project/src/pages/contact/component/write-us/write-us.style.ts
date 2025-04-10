@@ -15,8 +15,8 @@ const styles = {
         background: `linear-gradient(90deg,${colors.linearGradientBg})`,
         position:"relative",
         height:"500px",
-        padding:sizes.mediumPadding,
-        width:"80%",
+        padding:"92px 46px",
+        width:sizes.width,
         margin:sizes.marginAuto,
         borderRadius:sizes.borderRadiusMedium
     },

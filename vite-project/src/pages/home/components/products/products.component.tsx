@@ -13,6 +13,8 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { Routes } from '../../../../router/routes';
 import classNames from 'classnames';
+
+
 const ProductsComponent = () => {
     const classes = useProductsStyle();
     const [activeProduct, setActiveProduct] = useState('Available');  
@@ -72,7 +74,6 @@ const ProductsComponent = () => {
                             <div className={classes.moneyDiv}>
                                 <button className={classes.btn}>
                                     <span>{e.pul}</span>
-                                    <span>AZN</span>
                                 </button>
                             </div>
                         </SwiperSlide>

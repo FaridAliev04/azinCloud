@@ -10,11 +10,11 @@ import {environment} from '../../core/configs/app.config'
 import {ILang} from '../../assets/lang/lang'
 
 const NewsParamsComoponent = () => {
-    const {data}=useNewsCard()
     const {id}=useParams()
+    const {data}=useNewsCard(id)
     const classes=useNewsParamsStyles()
     const navigate=useNavigate()
-
+console.log(data)
     const backFunc = useCallback(() => {
         navigate(Routes.news);
       }, [navigate]);
@@ -38,30 +38,27 @@ const NewsParamsComoponent = () => {
                 </p>
                 </div>
             </div>
-            {data?.map((e:any , key:number)=>{
-                if(e.id==id){
-                    return <div key={key} className={classes.news}>
+            <div  className={classes.news}>
                         <h1 className={classes.header}>
-                            {currentLang==="en"?e.header:e.headerAz}
+                            {currentLang==="en"?data?.header:data?.headerAz}
                         </h1>
-                        <p className={classes.tarix}>{e.tarix}</p>
-                        <img className={classes.img} src={e.mainImg} alt="" />
+                        <p className={classes.tarix}>{data?.time}</p>
+                        <img className={classes.img} src={data?.mainImg ||undefined} alt="" />
 
                         <h3 className={classes.mainTexts}>
-                            {currentLang==="en"?e.mainText:e.mainTextAz}
+                            {currentLang==="en"?data?.mainText:data?.mainTextAz}
                         </h3>
-                        {currentLang==="en"?e.texts.map((event:any,key:number)=>{
+                        {currentLang==="en"?(data?.texts || []).map((event:any,key:number)=>{
                             return <p key={key} className={classes.texts}>
                                 {event}
                             </p>
-                        }):e.textsAz.map((event:any,keys:number)=>{
+                        }):(data?.textsAz||[]).map((event:any,keys:number)=>{
                             return <p key={keys} className={classes.texts}>
                             {event}
                         </p>
                         })}
                     </div>
-                }
-            })}
+                    
         </div>
     );
 }

@@ -14,7 +14,8 @@ const EmailChangeComponent = () => {
     const id = localStorage.getItem("id");
 
     const { mutate: updateEmail } = useUpdateEmail(id);
-    const { data, isLoading } = useGetUser(id);
+    const { data } = useGetUser(id);
+    console.log(data)
 
     const handleEmailChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
         setNewEmail(e.target.value);

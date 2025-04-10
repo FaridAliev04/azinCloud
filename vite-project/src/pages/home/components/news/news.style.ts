@@ -8,7 +8,11 @@ import { rem } from '../../../../assets/styles/abstracts/functions';
 const styles = {
     mainDiv:{
         background: colors.white,
-        padding:"78px 112px",
+        padding:"78px 0",
+    },
+    container:{
+        width:sizes.width,
+        margin:sizes.marginAuto
     },
     headerDiv:{
         display:"flex",

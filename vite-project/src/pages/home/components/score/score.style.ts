@@ -5,11 +5,10 @@ import { rem } from '../../../../assets/styles/abstracts/functions';
 
 const styles = {
    mainDiv:{
-    background: `linear-gradient(90deg,${colors.linearGradientBg})`,
-    padding:sizes.mediumPadding,
-    marginTop:sizes.marginTopComponent,
     display:"flex",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
+    width:sizes.width,
+    margin:sizes.marginAuto
    },
    valueText:{
     fontSize:"24px",
@@ -30,6 +29,12 @@ const styles = {
     flexDirection:"column",
     alignItems: "center",
     gap:rem(sizes.base)
+   },
+   container:{
+      width:"100%",
+      background: `linear-gradient(90deg,${colors.linearGradientBg})`,
+    padding:sizes.mediumPadding,
+    marginTop:sizes.marginTopComponent,
    }
 };
 

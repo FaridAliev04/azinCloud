@@ -7,7 +7,7 @@ import { Routes } from "../../../../../router/routes";
 import { useDispatch, useSelector } from "react-redux";
 import { useStore } from "../../../../../store/store.config";
 import { environment } from "../../../../configs/app.config";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { setLocale } from "../../../../../store/store.reducer";
 import { ILang } from "../../../../../assets/lang/lang";
 import useLocalization from "../../../../../assets/lang";
@@ -52,9 +52,9 @@ const NavComponent = () => {
     window.location.reload();
   }
 
-  const profilNone=()=>{
+  const profilNone=useCallback(()=>{
     setProfil(false)
-  }
+  },[profil])
 
   useEffect(() => {
     dispatch(setLocale(currentLang));

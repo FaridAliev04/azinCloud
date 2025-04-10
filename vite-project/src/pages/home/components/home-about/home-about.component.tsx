@@ -2,11 +2,12 @@ import { useHomeAboutStyle } from "./home-about.style";
 import SwiperComponent from "../swiper/swiper.component";
 import Cloud from "../../../../assets/images/icons/cloud";
 
-const MySwiper = () => {
+const HomeAbout = () => {
     const classes=useHomeAboutStyle()
 
   return (
-    <div className={classes.mainDiv}>
+    <div className={classes.container}>
+      <div className={classes.mainDiv}>
         <SwiperComponent/>      
         <Cloud/>
          <div className={classes.svg}>
@@ -17,8 +18,10 @@ const MySwiper = () => {
             <Rectangle3/>
           </div> */}
          </div>
+      </div>
+        
     </div>
   );
 };
 
-export default MySwiper;
+export default HomeAbout;

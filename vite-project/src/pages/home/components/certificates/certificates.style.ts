@@ -16,6 +16,8 @@ const styles = {
     imgDiv: {
         display: "flex",
         justifyContent: "space-between",
+        width:sizes.width,
+        margin:sizes.marginAuto
 
     },
     mainDiv: {

@@ -5,7 +5,7 @@ import colors from '../../../../assets/styles/abstracts/color';
 
 const styles = {
     mainDiv: {
-        marginTop: "15rem",
+        paddingTop:"13rem"
     },
     infoMainDiv: {
         display: "flex",
@@ -34,7 +34,7 @@ const styles = {
         justifyContent: "space-between",
         alignItems: "center",
         gap: "10rem",
-        width: "80%",
+        width: sizes.width,
         margin:sizes.marginAuto,
         flexWrap: "wrap", 
     },

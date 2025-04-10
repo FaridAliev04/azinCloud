@@ -1,16 +1,20 @@
 import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
+import sizes from '../../../../assets/styles/abstracts/sizes';
 
 
 
 const styles = {
-    mainDiv:{
+    container:{
         background: `linear-gradient(90deg,${colors.linearGradientBg})`,
-        padding:"75px",
+    },
+    mainDiv:{
+        width:sizes.width,
+        margin:sizes.marginAuto,
+        paddingTop:"13rem",
         display:"flex",
-        justifyContent: "space-around",
+        justifyContent: "space-between",
         height:"35rem",
-        marginTop:"7rem",
         position:"relative",
         zIndex:"100",
     },

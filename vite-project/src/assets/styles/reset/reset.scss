@@ -24,7 +24,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    // font-family: ;
 }
 ol, ul {
     list-style: none;
@@ -101,10 +100,4 @@ button{
   
   ::-webkit-scrollbar-thumb:hover {
     background: #2BAAE2; 
-  }
-
-  .container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0 10rem;
   }

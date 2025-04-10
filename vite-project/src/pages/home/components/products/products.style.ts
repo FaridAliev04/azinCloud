@@ -7,7 +7,7 @@ const styles = {
         position: "relative",
         bottom:"10rem",
         backgroundColor: "white",
-        width:sizes.width,
+        maxWidth:sizes.width,
         height:rem(sizes.productMainHeight),
         margin:sizes.marginAuto,
         padding:"2rem",
@@ -98,7 +98,7 @@ const styles = {
     btn:{
         display:"flex",
         justifyContent: "space-around",
-        padding:"18px",
+        padding:"20px",
         borderRadius:"18px",
         backgroundColor:" #12475F0D",
         width:"101px",

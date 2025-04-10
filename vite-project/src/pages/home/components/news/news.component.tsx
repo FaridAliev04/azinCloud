@@ -22,6 +22,7 @@ const NewsComponent = () => {
 
     return (
         <div className={classes.mainDiv}>
+            <div className={classes.container}>
             <div className={classes.headerDiv}>
                 <h1 className={classes.newsHeader}>{translate("news")}</h1>
                 <div className={`relative ${classes.btnDiv}`}>
@@ -77,6 +78,7 @@ const NewsComponent = () => {
                     ))
                 }
             </Swiper>
+            </div>
         </div>
     );
 };

@@ -60,14 +60,9 @@ export const az = {
 
     partners_header:"Texniki tərəfdaşlarımız",
 
-
-
-
     // news
 
     news:"Xəbərlər və Bloq",
-
-
 
 
     // certificates

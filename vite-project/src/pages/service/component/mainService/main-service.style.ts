@@ -5,8 +5,9 @@ import colors from '../../../../assets/styles/abstracts/color';
 
 const styles = {
     mainDiv:{
-        marginTop:"10rem",
-        padding:"5rem",
+        width:sizes.width,
+        margin:sizes.marginAuto,
+        padding:sizes.componentPaddingTop,
         display:"flex",
         flexDirection:"column",
         gap:"2rem"
@@ -47,11 +48,12 @@ const styles = {
         color:'#2BAAE2'
     },
     serviceDiv:{
-        display: "grid",
-    gridTemplateColumns: "auto auto auto",
-    gap:rem(sizes.base),
-    width:"110%",
-    margin:sizes.marginAuto
+        display: "flex",
+        gap:rem(sizes.base),
+        width:sizes.width,
+        margin:sizes.marginAuto,
+        flexWrap: "wrap",
+        justifyContent: "space-between"
 
     },
     span:{
@@ -101,7 +103,7 @@ const styles = {
     btn:{
         display:"flex",
         justifyContent: "space-around",
-        padding:"18px",
+        padding:"20px",
         borderRadius:"18px",
         backgroundColor:" #12475F0D",
         width:"101px",

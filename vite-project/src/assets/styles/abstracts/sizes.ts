@@ -16,7 +16,7 @@ const sizes = {
     activeSortWidth:228,
     activeSortHeight:56,
     zIndex:999999999,
-    mediumPadding:"92px 46px",
+    mediumPadding:"92px 0",
     lineHeight:"122%",
     footerFormPaddingTop:"15px",
     footerFormPaddingRight:"20px",
@@ -26,8 +26,8 @@ const sizes = {
     normalInptWidht:"560px",
     zero:0,
     smallMarginTop:"2rem",
-    width: "80%",
-    largeWidth:"88%"
+    width: "1260px",
+    componentPaddingTop:"13rem 0"
 };
 
 export default sizes;

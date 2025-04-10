@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import { getNewsCardService } from './news.service';
 
-export const useNewsCard = () => {
+export const useNewsCard = (id:string|undefined ) => {
     return useQuery({
-        queryKey: ['news'], 
-        queryFn: () => getNewsCardService(), 
+        queryKey: ['news',id], 
+        queryFn: () => getNewsCardService(id), 
     });
 };

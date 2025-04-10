@@ -6,8 +6,8 @@ import colors from '../../../../assets/styles/abstracts/color';
 const styles = {
     mainDiv:{
         margin:sizes.marginAuto,
-        marginTop:sizes.marginTop,
-        paddingTop:"3rem",
+        // marginTop:sizes.marginTop,
+        paddingTop:"13rem",
         paddingBottom:"3rem"
     },
     personCard:{

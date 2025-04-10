@@ -14,7 +14,7 @@ const MainAboutComponent = () => {
 
             <div className={classes.texts}>
                 <h1 className={classes.textHeader}>
-                   {translate("About_us")}
+                   {translate("about_us")}
                 </h1>
                 <p className={classes.text}>
                 {translate("about_text")}

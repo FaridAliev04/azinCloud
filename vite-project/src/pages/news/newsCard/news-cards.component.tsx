@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux';
 import useLocalization from '../../../assets/lang';
 import {environment} from '../../../core/configs/app.config'
 import {ILang} from "../../../assets/lang/lang"
+import { div } from 'framer-motion/client';
 const NewsCardsComponent = () => {
         const { data }=useNewsCard()
         const classes=useNewsCardStyle() 
@@ -24,7 +25,8 @@ const NewsCardsComponent = () => {
         return (localStorage.getItem(`${environment.applicationName}-locale`) as ILang) || "az";
       }, [locale]);
     return (
-        <div  className={classes.mainDiv}>
+        <div className={classes.container}>
+            <div  className={classes.mainDiv}>
             <div>
                 <h1 className={classes.newsHeader}>
                     {translate("nav_news_and_blog")}
@@ -48,6 +50,7 @@ const NewsCardsComponent = () => {
                        })
                     }
 
+            </div>
             </div>
         </div>
     );

@@ -6,13 +6,12 @@ import colors from '../../assets/styles/abstracts/color';
 
 const styles = {
     mainDiv:{
-        width:"80%",
+        width:sizes.width,
         margin:sizes.marginAuto,
-        marginTop:"10rem",
         display:"flex",
         flexDirection:"column",
         gap:rem(sizes.base),
-        padding:"2rem"
+        padding:sizes.componentPaddingTop
     },
     backDiv:{
         display:"flex",

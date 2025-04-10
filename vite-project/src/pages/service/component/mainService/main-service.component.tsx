@@ -75,7 +75,6 @@ const MainServiceComponent = () => {
                             <div className={classes.moneyDiv}>
                                 <button className={classes.btn}>
                                     <span>{e.pul}</span>
-                                    <span>AZN</span>
                                 </button>
                             </div>
                         </div>

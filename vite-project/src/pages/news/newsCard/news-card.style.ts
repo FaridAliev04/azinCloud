@@ -5,9 +5,10 @@ import { rem } from '../../../assets/styles/abstracts/functions';
 
 const styles = {
     mainDiv:{
-        background: colors.white,
-        padding:"78px 112px",
-        marginTop:"9rem",
+        width:sizes.width,
+        margin:sizes.marginAuto,
+        padding:sizes.componentPaddingTop,
+        // marginTop:"9rem",
     },
     headerDiv:{
         display:"flex",
@@ -82,6 +83,9 @@ const styles = {
         gap:rem(sizes.base),
         marginTop:"3rem",
         justifyContent: "space-between"
+    },
+    container:{
+        background: colors.white,
     }
 };
 

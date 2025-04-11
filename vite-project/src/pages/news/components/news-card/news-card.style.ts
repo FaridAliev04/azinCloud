@@ -1,14 +1,13 @@
 import {createUseStyles} from 'react-jss';
-import sizes from '../../../assets/styles/abstracts/sizes';
-import colors from '../../../assets/styles/abstracts/color';
-import { rem } from '../../../assets/styles/abstracts/functions';
+import sizes from '../../../../assets/styles/abstracts/sizes';
+import colors from '../../../../assets/styles/abstracts/color';
+import { rem } from '../../../../assets/styles/abstracts/functions';
 
 const styles = {
     mainDiv:{
         width:sizes.width,
         margin:sizes.marginAuto,
         padding:sizes.componentPaddingTop,
-        // marginTop:"9rem",
     },
     headerDiv:{
         display:"flex",

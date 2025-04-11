@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useMainLoginStyles } from './main-login.style';
-import LoginTop from '../../../assets/images/icons/loginTop';
-import LoginBottom from '../../../assets/images/icons/loginBottom';
-import SignInComponent from '../signIn/sign-in.component';
-import useLocalization from '../../../assets/lang';
-import SignUpComponent from '../signUp/sign-up.component';
+import LoginTop from '../../../../assets/images/icons/loginTop';
+import LoginBottom from '../../../../assets/images/icons/loginBottom';
+import SignInComponent from '../sign-in/sign-in.component';
+import useLocalization from '../../../../assets/lang';
+import SignUpComponent from '../sign-up/sign-up.component';
 import classNames from 'classnames';
 
 const MainLoginComponent = () => {

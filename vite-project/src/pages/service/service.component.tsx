@@ -1,4 +1,4 @@
-import MainServiceComponent from './component/mainService/main-service.component';
+import MainServiceComponent from './component/main-service/main-service.component';
 
 const ServiceComponent = () => {
     return (

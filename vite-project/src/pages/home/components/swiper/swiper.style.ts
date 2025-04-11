@@ -11,7 +11,6 @@ const styles = {
        fontSize:"3.125rem",
        lineHeight: "3.75rem",
        width:"542px !import",
-       fontWeight: "800",
        color:"white"
     },
     swiperDiv:{

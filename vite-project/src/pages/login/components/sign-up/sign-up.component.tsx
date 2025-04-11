@@ -1,6 +1,6 @@
 import { Select, Input, Form } from 'antd';
 import { useSignUpStyles } from './sign-up.style';
-import useLocalization from '../../../assets/lang';
+import useLocalization from '../../../../assets/lang';
 import { useCallback } from 'react';
 import { useSignUp } from './action/sign-up.mutation';
 import { useNavigate } from 'react-router-dom';

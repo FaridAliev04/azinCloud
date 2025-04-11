@@ -49,14 +49,14 @@ const ProductsComponent = () => {
                     className={availableClass}
                 >
                     <IconamoonLightning1Fill1 activeProduct={activeProduct}/>
-                    <span>{translate("available_products")}</span>
+                    <span className={classes.span}>{translate("available_products")}</span>
                 </div>
                 <div 
                     onClick={() => toggleSort('Upcoming')} 
                     className={upcomingClass}
                 >
                     <MingcuteRocketFill activeProduct={activeProduct}/>
-                    <span>{translate("upcoming")}</span>
+                    <span className={classes.span}>{translate("upcoming")}</span>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ const ProductsComponent = () => {
                             </div>
                             <div className={classes.moneyDiv}>
                                 <button className={classes.btn}>
-                                    <span>{e.pul}</span>
+                                    <span className={classes.span}>{e.pul}</span>
                                 </button>
                             </div>
                         </SwiperSlide>

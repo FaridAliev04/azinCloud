@@ -4,11 +4,11 @@ import HomeComponent from "../pages/home/home.component";
 import PublicComponent from "../core/layouts/public/public.component";
 import AboutComponent from "../pages/about/about.component";
 import ServiceComponent from "../pages/service/service.component";
-import NewsCardsComponent from "../pages/news/newsCard/news-cards.component";
-import NewsParamsComoponent from "../pages/newParams/news-params.comoponent";
+import NewsCardsComponent from "../pages/news/components/news-card/news-cards.component";
+import NewsParamsComoponent from "../pages/new-params/news-params.comoponent";
 import ContactComponent from "../pages/contact/contact.component";
 import LoginComponent from "../pages/login/login.component";
-import PersonInfoComponent from "../pages/personInfo/personInfo.component";
+import PersonInfoComponent from "../pages/person-info/personInfo.component";
 
 const router=createBrowserRouter([
     {

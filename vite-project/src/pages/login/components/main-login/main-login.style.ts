@@ -1,7 +1,7 @@
 import {createUseStyles} from 'react-jss';
-import colors from '../../../assets/styles/abstracts/color';
-import sizes from '../../../assets/styles/abstracts/sizes';
-import { rem } from '../../../assets/styles/abstracts/functions';
+import colors from '../../../../assets/styles/abstracts/color';
+import sizes from '../../../../assets/styles/abstracts/sizes';
+import { rem } from '../../../../assets/styles/abstracts/functions';
 
 
 
@@ -19,7 +19,7 @@ const styles = {
         display:"flex",
         flexDirection:"column",
         alignItems: "center",
-        padding: "4.6875rem .3125rem"
+        padding: "4.6875rem 0"
     },
     loginTop:{
         position:"absolute",

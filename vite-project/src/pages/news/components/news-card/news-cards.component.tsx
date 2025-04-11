@@ -3,9 +3,9 @@ import { useNewsCard } from './action/news-card.query';
 import { useNewsCardStyle } from './news-card.style';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import useLocalization from '../../../assets/lang';
-import {environment} from '../../../core/configs/app.config'
-import {ILang} from "../../../assets/lang/lang"
+import useLocalization from '../../../../assets/lang';
+import {environment} from '../../../../core/configs/app.config'
+import {ILang} from "../../../../assets/lang/lang"
 import { div } from 'framer-motion/client';
 const NewsCardsComponent = () => {
         const { data }=useNewsCard()

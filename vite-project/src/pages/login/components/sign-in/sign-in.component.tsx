@@ -1,8 +1,8 @@
 import { Form, Input } from "antd";
-import useLocalization from "../../../assets/lang";
+import useLocalization from "../../../../assets/lang";
 import { useSignInStyles } from "./sign-in.style";
 import { useSignIn } from "./action/sign-in.query";
-import { environment } from "../../../core/configs/app.config";
+import { environment } from "../../../../core/configs/app.config";
 import { useNavigate } from "react-router-dom";
 import { useCallback } from "react";
 

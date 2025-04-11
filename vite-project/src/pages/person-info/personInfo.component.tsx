@@ -1,5 +1,5 @@
 import PersonComopent from './components/person/person.comopent';
-import EmailChangeComponent from './components/emailChange/email-change.component';
+import EmailChangeComponent from './components/email-change/email-change.component';
 import { usePersonInfoStyle } from './personInfo.style';
 
 const PersonInfoComponent = () => {

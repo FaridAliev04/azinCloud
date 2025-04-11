@@ -10,7 +10,7 @@ const styles = {
         maxWidth:sizes.width,
         height:rem(sizes.productMainHeight),
         margin:sizes.marginAuto,
-        padding:"2rem",
+        padding:"2rem 0",
         display:"flex",
         flexDirection: "column",
         gap:"2rem",
@@ -122,6 +122,9 @@ const styles = {
     more:{
         cursor: "pointer"
     },
+    span:{
+        fontWeight:700
+    }
 
 };
 

@@ -1,8 +1,7 @@
 import {createUseStyles} from 'react-jss';
-import colors from '../../../assets/styles/abstracts/color';
-import sizes from '../../../assets/styles/abstracts/sizes';
-import { main } from 'framer-motion/client';
-import { rem } from '../../../assets/styles/abstracts/functions';
+import colors from '../../../../assets/styles/abstracts/color';
+import sizes from '../../../../assets/styles/abstracts/sizes';
+import { rem } from '../../../../assets/styles/abstracts/functions';
 
 
 
@@ -15,14 +14,12 @@ const styles = {
     selection:{
         background:`${colors.white} !important`,
         height:"48px !important",
-        // width:"282px !important",
         '& .ant-select-selection-item': {
              color: `${colors.black} !important`,  
         },
     },
     inpDiv:{
         display:"flex",
-        // justifyContent: "space-between"
         gap:"3rem"
     },
     inp:{

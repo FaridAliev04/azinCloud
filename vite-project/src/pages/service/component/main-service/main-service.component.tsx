@@ -74,7 +74,7 @@ const MainServiceComponent = () => {
                             </div>
                             <div className={classes.moneyDiv}>
                                 <button className={classes.btn}>
-                                    <span>{e.pul}</span>
+                                    <span className={classes.span}>{e.pul}</span>
                                 </button>
                             </div>
                         </div>

@@ -31,7 +31,7 @@ const styles = {
         width:"65px",
         height:"0px",
         fontSize: "17px",
-        fontWeight: "700",
+        fontWeight: "400",
     },
     select:{
         background: "none",

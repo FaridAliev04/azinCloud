@@ -33,7 +33,7 @@ export const rootSlice = createSlice({
             localStorage.setItem(`${environment.applicationName}-locale`, action.payload);
         },
         setUser: (state: any, action: PayloadAction<any>) => {
-            console.log(action.payload.user,)
+            // console.log(action.payload.user,)
         },
         setUpdate: (state: any, action: PayloadAction<any>) => {
             const updatedData = action.payload;

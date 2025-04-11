@@ -23,7 +23,6 @@ const ProductsComponent = () => {
 
     const toggleSort = (sortType: string) => {
         setActiveProduct(sortType); 
-        console.log(activeProduct)
     };
     const translate=useLocalization()
     const locale = useSelector((state: any) => state.locale);

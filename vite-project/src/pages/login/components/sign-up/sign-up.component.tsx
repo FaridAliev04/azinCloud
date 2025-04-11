@@ -10,9 +10,6 @@ const SignUpComponent = () => {
     const classes = useSignUpStyles();
     const translate = useLocalization();
     const navigate = useNavigate();
-
-    console.log(uuidv4())
-
     const { mutate } = useSignUp();
 
     const initialValues: any = {

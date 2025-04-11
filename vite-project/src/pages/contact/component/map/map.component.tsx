@@ -50,7 +50,6 @@ const MapComponent = () => {
                         </div>
                     </div>
                 </div>
-
                 
                 <div className={classes.mapContainer}>
                     <MapContainer center={AZERBAIJAN_COORDS} zoom={10} style={{ height: "100%", width: "100%" }}>

@@ -14,7 +14,6 @@ const NewsParamsComoponent = () => {
     const {data}=useNewsCard(id)
     const classes=useNewsParamsStyles()
     const navigate=useNavigate()
-console.log(data)
     const backFunc = useCallback(() => {
         navigate(Routes.news);
       }, [navigate]);

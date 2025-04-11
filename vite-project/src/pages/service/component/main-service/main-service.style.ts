@@ -111,7 +111,7 @@ const styles = {
         border:"none",
         fontWeight: "700",
         color:"#12475F"
-    },
+    }
 
 };
 

@@ -225,6 +225,17 @@
       "address": "Üzeyir Hacıbəyov 100",
       "password": "12",
       "repeat_password": "12"
+    },
+    {
+      "id": "8b8649fc-655b-4145-a8f7-31398b346d90",
+      "name": "Heyder",
+      "surname": "Eliyev",
+      "country": "Azerbaycan",
+      "city": "Baki",
+      "email": "heyder@gmail.com",
+      "address": "Üzeyir Hacıbəyov 100 menzil 2",
+      "password": "123",
+      "repeat_password": "123"
     }
   ]
 }

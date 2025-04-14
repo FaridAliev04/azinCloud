@@ -2,6 +2,7 @@ import { createUseStyles } from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     serviceMainDiv: {
@@ -13,7 +14,7 @@ const styles = {
     },
     serviceHeader: {
         fontSize: sizes.largeFontSize,
-        fontWeight: "700",
+        fontFamily:fonts.fontBold,
         textAlign: "center",
         lineHeight: "122%",
         color: colors.sectorHeader
@@ -75,7 +76,8 @@ const styles = {
         fontSize:"20px",
         lineHeight:"128%",
         color:colors.aboutUsHeader,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     cardEffect:{
         "&&::before":{

@@ -1,6 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import colors from '../../../../assets/styles/abstracts/color';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -34,7 +35,8 @@ const styles = {
     header:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontWeight:700
+        fontFamily:fonts.fontBold
+
     }
 }
 

@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import colors from '../../../../assets/styles/abstracts/color';
 import { rem } from '../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -27,13 +28,13 @@ const styles = {
     email:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontWeight:"700",
+        fontFamily:fonts.fontBold
         // marginTop:"0.3rem"
     },
     changeEmail:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontWeight:"700",
+        fontFamily:fonts.fontBold,
         marginTop:"0.3rem"
     },
     personEmail:{

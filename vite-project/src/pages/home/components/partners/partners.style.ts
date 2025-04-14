@@ -1,6 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import sizes from '../../../../assets/styles/abstracts/sizes';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -37,7 +38,7 @@ const styles = {
     },
     partnersHeader: {
       fontSize: sizes.largeFontSize,
-      fontWeight: "700",
+      fontFamily:fonts.fontBold,
       color: colors.aboutText,
     },
     btn: {

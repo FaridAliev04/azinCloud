@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
 import colors from '../../../../assets/styles/abstracts/color';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     mainDiv:{
@@ -45,14 +46,14 @@ const styles = {
         color:colors.white,
         background:colors.loginBtn,
         fontSize:"18px",
-        fontWeight:"700",
+        fontFamily:fonts.fontBold,
         borderRadius:sizes.borderRadiusveryLarge,
         padding:sizes.inpPadding,
     },
     header:{
         color:colors.white,
         fontSize:sizes.largeFontSize,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     svgDiv:{
         position:"absolute",

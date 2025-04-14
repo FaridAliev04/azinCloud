@@ -1,6 +1,7 @@
 import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import sizes from '../../../../assets/styles/abstracts/sizes';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 
@@ -19,7 +20,7 @@ const styles = {
     textsHeader:{
         fontSize:"32px",
         color:colors.aboutUsHeader,
-        fontWeight: "700",
+        fontFamily:fonts.fontBold,
         lineHeight:sizes.lineHeight
     },
     text:{
@@ -42,7 +43,7 @@ const styles = {
     logoInculdeHeader:{
         width:"90px",
         fontSize:"18px",
-        fontWeight:"700",
+        fontFamily:fonts.fontBold,
         lineHeight:"164%",
         
     },

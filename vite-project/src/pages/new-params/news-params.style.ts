@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../assets/styles/abstracts/sizes';
 import { rem } from '../../assets/styles/abstracts/functions';
 import colors from '../../assets/styles/abstracts/color';
+import fonts from '../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -35,17 +36,20 @@ const styles = {
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
         lineHeight:"160%",
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     tarix:{
         color:"#2BAAE2",
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     mainTexts:{
         fontSize:sizes.ortaSizes,
         lineHeight:"160%",
         color:colors.aboutText,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     texts:{
         marginTop:rem(sizes.base),

@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import { rem } from '../../../../assets/styles/abstracts/functions';
 import sizes from '../../../../assets/styles/abstracts/sizes';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -21,7 +22,7 @@ const styles = {
     },
     textHeader:{
         fontSize:sizes.largeFontSize ,
-        fontWeight:"700",
+        fontFamily:fonts.fontBold,
         lineHeight:sizes.lineHeight
         
     },

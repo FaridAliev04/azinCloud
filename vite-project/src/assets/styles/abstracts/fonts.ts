@@ -1,14 +1,12 @@
 
 const fonts = {
-    font: 'Lato',
+    font: 'Lato Regular',
 
-    // fontBold: 'Lato Bold',
+    fontBold: 'Lato Bold',
 
-    // fontMedium: 'Lato Medium',
+    fontMedium: 'Lato Medium',
 
-    // fontLight: 'Lato Light',
-
-    // fontMain: 'Lato Medium',
+    fontLight: 'Lato Light',
 
 };
 

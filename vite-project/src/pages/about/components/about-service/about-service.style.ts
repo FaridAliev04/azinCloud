@@ -2,12 +2,12 @@ import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import { rem } from '../../../../assets/styles/abstracts/functions';
 import sizes from '../../../../assets/styles/abstracts/sizes';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
     mainDiv:{
         padding:"5rem 0",
-        // width:"80%",
         display:"flex",
         flexDirection:"column",
         margin:sizes.marginAuto
@@ -15,7 +15,7 @@ const styles = {
     header:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     text:{
         color:colors.aboutText,
@@ -40,7 +40,8 @@ const styles = {
         display:"flex",
         alignItems:"center",
         color:"#10364D",
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     iconsMainDiv:{
         display:"flex",

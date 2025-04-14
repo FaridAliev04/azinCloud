@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
 import colors from '../../../../assets/styles/abstracts/color';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     mainDiv: {
@@ -19,7 +20,7 @@ const styles = {
     mapHeader:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     info: {
         width: "15rem",

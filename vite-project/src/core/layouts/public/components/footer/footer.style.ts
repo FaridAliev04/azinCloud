@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import colors from '../../../../../assets/styles/abstracts/color';
 import sizes from '../../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../../assets/styles/abstracts/fonts';
 
 
 
@@ -46,7 +47,7 @@ const styles = {
     },
     header:{
         color:colors.aboutText,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     footerSpan:{
         color:colors.aboutText

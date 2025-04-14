@@ -177,7 +177,7 @@
       "surname": "Nebiyev",
       "country": "Azerbaycan",
       "city": "Mingəçevir",
-      "email": "nurmehemmednebiyev12@gmail.com",
+      "email": "nurmehemmednebiyev122@gmail.com",
       "address": "Mingecevir seher Üzeyir Hacıbəyov 100 menzil 2",
       "password": "salam123",
       "repeat_password": "salam123"
@@ -203,39 +203,6 @@
       "address": "Üzeyir Hacıbəyov 100 menzil 2",
       "password": "12",
       "repeat_password": "12"
-    },
-    {
-      "id": "b20a4dae-eb5d-41b0-af1e-656aed2fed5f",
-      "name": "Zuleyxa",
-      "surname": "Humbbetova",
-      "country": "Azerbaycan",
-      "city": "Mingəçevir",
-      "email": "helloSalam@gmail.com",
-      "address": "Üzeyir Hacıbəyov 100",
-      "password": "12",
-      "repeat_password": "12"
-    },
-    {
-      "id": "7e72acc8-59c9-4c4c-8625-4c03ad8e027b",
-      "name": "Pakize",
-      "surname": "Humbetova",
-      "country": "Rusiya",
-      "city": "Mingəçevir",
-      "email": "pakize65@gmail.com",
-      "address": "Üzeyir Hacıbəyov 100",
-      "password": "12",
-      "repeat_password": "12"
-    },
-    {
-      "id": "8b8649fc-655b-4145-a8f7-31398b346d90",
-      "name": "Heyder",
-      "surname": "Eliyev",
-      "country": "Azerbaycan",
-      "city": "Baki",
-      "email": "heyder@gmail.com",
-      "address": "Üzeyir Hacıbəyov 100 menzil 2",
-      "password": "123",
-      "repeat_password": "123"
     }
   ]
 }

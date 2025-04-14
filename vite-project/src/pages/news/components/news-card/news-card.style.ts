@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import colors from '../../../../assets/styles/abstracts/color';
 import { rem } from '../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     mainDiv:{
@@ -55,7 +56,8 @@ const styles = {
         fontSize:rem(sizes.base),
         color:colors.aboutText,
         lineHeight:"160%",
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     textsText:{
         color: colors.aboutText,
@@ -73,7 +75,7 @@ const styles = {
         fontSize:sizes.largeFontSize,
         lineHeight:sizes.lineHeight,
         color:colors.aboutText,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     cardContainer: {
         display:" flex",

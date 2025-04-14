@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
 import colors from '../../../../assets/styles/abstracts/color';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     mainDiv:{
@@ -19,7 +20,8 @@ const styles = {
     header:{
         fontSize:sizes.largeFontSize,
         color:colors.aboutText,
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     productsSort:{
         display:"flex",
@@ -57,7 +59,8 @@ const styles = {
 
     },
     span:{
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
     },
     service: {
         height: "300px",
@@ -76,7 +79,8 @@ const styles = {
     productHeader:{
         textAlign:"center",
         fontSize:"18px",
-        fontWeight:"700"
+        fontFamily:fonts.fontBold
+
         
     },
     productText:{
@@ -109,7 +113,7 @@ const styles = {
         width:"101px",
         height:"56px",
         border:"none",
-        fontWeight: "700",
+        fontFamily:fonts.fontBold,
         color:"#12475F"
     }
 

@@ -22,7 +22,6 @@ const styles = {
         marginTop:"0.5rem"
     },
     text:{
-        fontWeight:"400",
         color:colors.aboutText
     },
     backIcons:{
@@ -36,20 +35,19 @@ const styles = {
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
         lineHeight:"160%",
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
     },
     tarix:{
         color:"#2BAAE2",
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
     },
     mainTexts:{
         fontSize:sizes.ortaSizes,
         lineHeight:"160%",
         color:colors.aboutText,
-        fontFamily:fonts.fontBold
-
+        fontWeight:700
     },
     texts:{
         marginTop:rem(sizes.base),

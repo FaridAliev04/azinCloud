@@ -28,18 +28,17 @@ const styles = {
     email:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontFamily:fonts.fontBold
+        fontWeight:700
         // marginTop:"0.3rem"
     },
     changeEmail:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         marginTop:"0.3rem"
     },
     personEmail:{
         color:colors.aboutUsHeader,
-        fontWeight:"400",
         fontSize:"14px"
     },
     changeEmailDiv:{

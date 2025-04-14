@@ -29,7 +29,6 @@ const styles = {
         cursor: "pointer",
         lineHeight:"160%",
         letterSpacing: "1px",
-        fontWeight:"400"
     },
     btn:{
         padding:"1rem",

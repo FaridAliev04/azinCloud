@@ -40,7 +40,7 @@ const styles = {
     },
     categoryName:{
         fontSize:sizes.ortaSizes,
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         color:colors.white,
         cursor: "pointer"
     },
@@ -57,7 +57,7 @@ const styles = {
     noneCategorName:{
         opacity:"0.5",
         fontSize:sizes.ortaSizes,
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         color:colors.white,
         cursor: "pointer"
     }

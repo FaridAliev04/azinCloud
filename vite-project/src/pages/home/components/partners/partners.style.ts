@@ -38,7 +38,7 @@ const styles = {
     },
     partnersHeader: {
       fontSize: sizes.largeFontSize,
-      fontFamily:fonts.fontBold,
+      fontWeight:700,
       color: colors.aboutText,
     },
     btn: {

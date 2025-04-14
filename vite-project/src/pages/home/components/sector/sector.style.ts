@@ -16,7 +16,7 @@ const styles = {
    },
    sectorHeader:{
     textAlign: "center",
-    fontFamily:fonts.fontBold,
+    fontWeight:700,
     fontSize:"32px",
     color:colors.sectorHeader
    },

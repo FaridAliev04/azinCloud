@@ -1,13 +1,13 @@
 import {createUseStyles} from 'react-jss';
 import sizes from '../../../../assets/styles/abstracts/sizes';
-import { rem } from '../../../../assets/styles/abstracts/functions';
 import colors from '../../../../assets/styles/abstracts/color';
-import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
     mainDiv:{
+        width:sizes.width,
+        margin:sizes.marginAuto,
         marginTop:sizes.marginTopComponent,
-        padding:"2rem"
+        // padding:"2rem"
     },
     inpDiv:{
         display:"flex",
@@ -17,8 +17,6 @@ const styles = {
         position:"relative",
         height:"500px",
         padding:"92px 46px",
-        width:sizes.width,
-        margin:sizes.marginAuto,
         borderRadius:sizes.borderRadiusMedium
     },
     inpt:{
@@ -46,14 +44,14 @@ const styles = {
         color:colors.white,
         background:colors.loginBtn,
         fontSize:"18px",
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         borderRadius:sizes.borderRadiusveryLarge,
         padding:sizes.inpPadding,
     },
     header:{
         color:colors.white,
         fontSize:sizes.largeFontSize,
-        fontFamily:fonts.fontBold
+        fontWeight:700
     },
     svgDiv:{
         position:"absolute",

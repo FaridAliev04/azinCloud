@@ -60,7 +60,7 @@ const styles = {
         fontSize:rem(sizes.base),
         color:colors.aboutText,
         lineHeight:"160%",
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
     },
     textsText:{
         color: colors.aboutText,
@@ -78,7 +78,7 @@ const styles = {
         fontSize:sizes.largeFontSize,
         lineHeight:sizes.lineHeight,
         color:colors.aboutText,
-        fontFamily:fonts.fontBold
+        fontWeight:700
     }
 };
 

@@ -15,7 +15,7 @@ const styles = {
     header:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontFamily:fonts.fontBold
+        fontWeight:700
     },
     text:{
         color:colors.aboutText,
@@ -40,8 +40,7 @@ const styles = {
         display:"flex",
         alignItems:"center",
         color:"#10364D",
-        fontFamily:fonts.fontBold
-
+        fontWeight:700
     },
     iconsMainDiv:{
         display:"flex",

@@ -20,7 +20,7 @@ const styles = {
     textsHeader:{
         fontSize:"32px",
         color:colors.aboutUsHeader,
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         lineHeight:sizes.lineHeight
     },
     text:{
@@ -29,7 +29,6 @@ const styles = {
         height:"137px",
         fontSize:'16px',
         lineHeight:"160%",
-        fontWeight:"400"
     },
     logosDiv:{
         display:"flex",
@@ -43,7 +42,7 @@ const styles = {
     logoInculdeHeader:{
         width:"90px",
         fontSize:"18px",
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         lineHeight:"164%",
         
     },

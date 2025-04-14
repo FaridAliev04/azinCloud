@@ -22,7 +22,7 @@ const styles = {
     },
     textHeader:{
         fontSize:sizes.largeFontSize ,
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         lineHeight:sizes.lineHeight
         
     },

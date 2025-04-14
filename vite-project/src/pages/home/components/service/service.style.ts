@@ -14,7 +14,7 @@ const styles = {
     },
     serviceHeader: {
         fontSize: sizes.largeFontSize,
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         textAlign: "center",
         lineHeight: "122%",
         color: colors.sectorHeader
@@ -76,7 +76,7 @@ const styles = {
         fontSize:"20px",
         lineHeight:"128%",
         color:colors.aboutUsHeader,
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
     },
     cardEffect:{

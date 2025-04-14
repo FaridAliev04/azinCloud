@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import colors from '../../../../../assets/styles/abstracts/color';
 import sizes from '../../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../../assets/styles/abstracts/fonts';
 
 
 const styles = {
@@ -31,7 +32,7 @@ const styles = {
         width:"65px",
         height:"0px",
         fontSize: "17px",
-        fontWeight: "400",
+        fontWeight:700
     },
     select:{
         background: "none",

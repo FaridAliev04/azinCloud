@@ -20,7 +20,7 @@ const styles = {
     header:{
         fontSize:sizes.largeFontSize,
         color:colors.aboutText,
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
     },
     productsSort:{
@@ -59,7 +59,7 @@ const styles = {
 
     },
     span:{
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
     },
     service: {
@@ -79,7 +79,7 @@ const styles = {
     productHeader:{
         textAlign:"center",
         fontSize:"18px",
-        fontFamily:fonts.fontBold
+        fontWeight:700
 
         
     },
@@ -88,7 +88,6 @@ const styles = {
         margin:"0 auto",
         textAlign:"center",
         fontSize:"18px",
-        fontWeight:"400",
         display: "-webkit-box",
         WebkitLineClamp: 2,   
         WebkitBoxOrient: "vertical",
@@ -113,7 +112,7 @@ const styles = {
         width:"101px",
         height:"56px",
         border:"none",
-        fontFamily:fonts.fontBold,
+        fontWeight:700,
         color:"#12475F"
     }
 

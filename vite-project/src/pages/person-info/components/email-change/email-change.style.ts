@@ -28,13 +28,13 @@ const styles = {
     email:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontWeight:700
+        fontFamily:fonts.fontBold
         // marginTop:"0.3rem"
     },
     changeEmail:{
         color:colors.loginBtn,
         fontSize:"18px",
-        fontWeight:700,
+        fontFamily:fonts.fontBold,
         marginTop:"0.3rem"
     },
     personEmail:{

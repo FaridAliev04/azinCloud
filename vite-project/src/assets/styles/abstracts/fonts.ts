@@ -4,9 +4,6 @@ const fonts = {
 
     fontBold: 'Lato Bold',
 
-    fontMedium: 'Lato Medium',
-
-    fontLight: 'Lato Light',
 
 };
 

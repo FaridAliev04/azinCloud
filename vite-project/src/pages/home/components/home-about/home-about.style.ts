@@ -28,12 +28,15 @@ const styles = {
         position:"absolute",
         bottom:"-10rem",
          width:"100%",
-         zIndex:"50"
+         zIndex:"50",
+         
     },
     secondSvg:{
-        position:"absolute",
-        bottom:"-10rem",
-        zIndex:"49"
+        position:"relative",
+        top:"10rem",
+        left:'0',
+        zIndex:"-1",
+        rotate: "180deg"
     }
 };
 

@@ -11,7 +11,7 @@ const styles = {
         textAlign: "center",
         fontSize: sizes.largeFontSize,
         color: colors.aboutText,
-        fontWeight:700,
+        fontFamily:fonts.fontBold,
         lineHeight: sizes.lineHeight
     },
     imgDiv: {

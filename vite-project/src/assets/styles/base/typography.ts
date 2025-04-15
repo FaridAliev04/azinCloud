@@ -9,11 +9,7 @@ const typography = {
       src: `url("${LatoBold}")`,
     },
     {
-      fontFamily: 'Lato Black',
-      src: `url("${LatoBlack}")`,
-    },
-    {
-      fontFamily: 'Lato Regular,sans-serif',
+      fontFamily: 'Lato Regular',
       src: `url("${LatoRegular}")`,
     },
   ],

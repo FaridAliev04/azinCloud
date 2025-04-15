@@ -1,5 +1,6 @@
 import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 
@@ -11,7 +12,8 @@ const styles = {
        fontSize:"3.125rem",
        lineHeight: "3.75rem",
        width:"542px !import",
-       color:"white"
+       color:"white",
+       fontFamily:fonts.fontBold
     },
     swiperDiv:{
         width:"65px",

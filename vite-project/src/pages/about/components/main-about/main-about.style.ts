@@ -22,14 +22,13 @@ const styles = {
     },
     textHeader:{
         fontSize:sizes.largeFontSize ,
-        fontWeight:700,
+        fontFamily:fonts.fontBold,
         lineHeight:sizes.lineHeight
         
     },
     text:{
         lineHeight:"160%",
         width:"685px",
-        fontWeight:"400",
     }
 };
 

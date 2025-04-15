@@ -2,6 +2,7 @@ import {createUseStyles} from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 
 
@@ -35,7 +36,7 @@ const styles = {
         borderRadius:"41px",
         background:colors.loginBtn,
         color:colors.white,
-        fontWeight:900,
+        fontFamily:fonts.fontBold,
         fontSize:"18px",
         width:"100%"
     }

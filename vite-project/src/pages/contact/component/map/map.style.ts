@@ -20,7 +20,7 @@ const styles = {
     mapHeader:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontWeight:700
+        fontFamily:fonts.fontBold
     },
     info: {
         width: "15rem",

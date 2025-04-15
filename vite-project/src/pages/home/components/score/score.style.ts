@@ -2,6 +2,7 @@ import { createUseStyles } from 'react-jss';
 import colors from '../../../../assets/styles/abstracts/color';
 import sizes from '../../../../assets/styles/abstracts/sizes';
 import { rem } from '../../../../assets/styles/abstracts/functions';
+import fonts from '../../../../assets/styles/abstracts/fonts';
 
 const styles = {
    mainDiv:{
@@ -13,11 +14,11 @@ const styles = {
    valueText:{
     fontSize:"24px",
     color:colors.white,
-    fontWeight:"600"
+    fontFamily:fonts.fontBold
    },
    score:{
     fontSize:"50px",
-    fontWeight:"900",
+    fontFamily:fonts.fontBold,
     color:colors.white,
     lineHeight:sizes.lineHeight
    },

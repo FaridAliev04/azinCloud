@@ -11,6 +11,7 @@ import useLocalization from "../../../../assets/lang";
 const AboutServiceComponent = () => {
     const classes=useAboutServiceStyle()
     const translate=useLocalization()
+    
     return (
     <div className={classes.container}>
         <div className={classes.mainDiv}> 

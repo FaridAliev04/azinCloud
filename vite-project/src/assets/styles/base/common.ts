@@ -9,7 +9,7 @@ const commonStyles = {
         },
         body: {
             margin: 0,
-            fontFamily: fonts.font
+            fontFamily: `${fonts.font}`
         },
         img: {maxWidth: '100%',},
         ul: {listStyleType: 'none', padding: 0, margin: 0,},

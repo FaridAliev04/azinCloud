@@ -35,8 +35,7 @@ const styles = {
     header:{
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
-        fontWeight:700
-
+        fontFamily:fonts.fontBold
     }
 }
 

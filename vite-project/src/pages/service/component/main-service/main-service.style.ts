@@ -20,7 +20,7 @@ const styles = {
     header:{
         fontSize:sizes.largeFontSize,
         color:colors.aboutText,
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
     },
     productsSort:{
@@ -59,7 +59,7 @@ const styles = {
 
     },
     span:{
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
     },
     service: {
@@ -79,7 +79,7 @@ const styles = {
     productHeader:{
         textAlign:"center",
         fontSize:"18px",
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
         
     },
@@ -112,7 +112,7 @@ const styles = {
         width:"101px",
         height:"56px",
         border:"none",
-        fontWeight:700,
+        fontFamily:fonts.fontBold,
         color:"#12475F"
     }
 

@@ -47,7 +47,8 @@ const styles = {
     },
     header:{
         color:colors.aboutText,
-        fontWeight:"700"
+        // fontWeight:"700"
+        fontFamily:fonts.fontBold
     },
     footerSpan:{
         color:colors.aboutText

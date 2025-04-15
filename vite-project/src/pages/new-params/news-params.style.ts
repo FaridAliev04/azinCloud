@@ -35,19 +35,19 @@ const styles = {
         color:colors.aboutText,
         fontSize:sizes.largeFontSize,
         lineHeight:"160%",
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
     },
     tarix:{
         color:"#2BAAE2",
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
     },
     mainTexts:{
         fontSize:sizes.ortaSizes,
         lineHeight:"160%",
         color:colors.aboutText,
-        fontWeight:700
+        fontFamily:fonts.fontBold
     },
     texts:{
         marginTop:rem(sizes.base),

@@ -7,6 +7,7 @@ const MainAboutComponent = () => {
     const classes=useAboutMainStyle()
     const translate=useLocalization()
 
+
     return (
         <div className={classes.mainDiv}>
             <AboutUsSvgComponent/>

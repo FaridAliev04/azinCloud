@@ -5,6 +5,7 @@ import { rem } from '../../../../../assets/styles/abstracts/functions';
 import fonts from '../../../../../assets/styles/abstracts/fonts';
 
 
+
 const styles = {
     mainDiv:{
         display:"flex",
@@ -32,7 +33,7 @@ const styles = {
         width:"65px",
         height:"0px",
         fontSize: "17px",
-        fontWeight:700
+        fontFamily:fonts.fontBold
     },
     select:{
         background: "none",
@@ -78,7 +79,6 @@ const styles = {
         flexDirection:"column",
         gap:rem(sizes.base),
         color:colors.aboutText,
-        fontWeight:"500",
         fontSize:"18px",
     },
     exitDiv:{

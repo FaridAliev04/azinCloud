@@ -27,7 +27,7 @@ const styles = {
         height:rem(sizes.productsSortHeight),
         borderRadius:"9px",
         cursor: "pointer",
-        fontWeight:700
+        fontFamily:fonts.fontBold
 
 
     },
@@ -46,7 +46,7 @@ const styles = {
         backgroundColor:" #EAF5FC",
         cursor: "pointer",
         color:'#2BAAE2',
-        fontWeight:700
+        fontFamily:fonts.fontBold
     },
     swiperSlide: {
         height: "292px",
@@ -66,7 +66,7 @@ const styles = {
     productHeader:{
         textAlign:"center",
         fontSize:"18px",
-        fontWeight:700
+        fontFamily:fonts.fontBold
         
     },
     productText:{
@@ -104,7 +104,7 @@ const styles = {
         width:"101px",
         height:"56px",
         border:"none",
-        fontWeight:700,
+        fontFamily:fonts.fontBold,
         color:"#12475F"
     },
     moreDiv:{
@@ -112,7 +112,6 @@ const styles = {
         justifyContent: "center",
         marginTop:"1rem",
         gap:"1rem",
-        fontWeight:"500",
         color:"#2BAAE2"
     },
     moreIcons:{
@@ -123,7 +122,7 @@ const styles = {
         cursor: "pointer"
     },
     span:{
-        fontWeight:700
+        fontFamily:fonts.fontBold
     }
 
 };

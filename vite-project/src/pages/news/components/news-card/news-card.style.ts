@@ -69,7 +69,8 @@ const styles = {
     },
     textDate:{
         fonstSize:"14px",
-        color:colors.aboutText
+        color:colors.aboutText,
+        opacity:"0.8"
     },
     newsHeader:{
         fontSize:sizes.largeFontSize,

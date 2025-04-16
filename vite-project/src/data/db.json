@@ -177,7 +177,7 @@
       "surname": "Nebiyev",
       "country": "Azerbaycan",
       "city": "Mingəçevir",
-      "email": "nurmehemmednebiyev122@gmail.com",
+      "email": "nurmehemmednebiyev12@gmail.com",
       "address": "Mingecevir seher Üzeyir Hacıbəyov 100 menzil 2",
       "password": "salam123",
       "repeat_password": "salam123"
@@ -203,6 +203,17 @@
       "address": "Üzeyir Hacıbəyov 100 menzil 2",
       "password": "12",
       "repeat_password": "12"
+    },
+    {
+      "id": "e359cf38-54fa-4ef9-9839-907a084f7f2c",
+      "name": "Alıyev�",
+      "surname": "Farıd�",
+      "country": "Turkiye",
+      "city": "Mingəçevir",
+      "email": "salam@gmail.com",
+      "address": "Üzeyir Hacıbəyov 100",
+      "password": "123",
+      "repeat_password": "123"
     }
   ]
 }

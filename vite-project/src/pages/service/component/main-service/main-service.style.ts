@@ -44,7 +44,7 @@ const styles = {
         alignItems: "center",
         width:rem(sizes.activeSortWidth),
         height:rem(sizes.activeSortHeight),
-        borderRadius:"9px",
+        borderRadius:"50px",
         backgroundColor:" #EAF5FC",
         cursor: "pointer",
         color:'#2BAAE2'
